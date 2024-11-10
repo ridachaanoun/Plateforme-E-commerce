@@ -1,0 +1,597 @@
+{"products": [
+  {
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "clothing",
+    "childCategory": "men",
+    "image": ["https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+              "https://m.media-amazon.com/images/I/81zWnT1GY+L._AC_UF1000,1000_QL80_.jpg",
+              "https://www.bfgcdn.com/1500_1500_90/502-1244-2311/fjaellraeven-foldsack-no1-daypack.jpg"],
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "Mens Casual Premium Slim Fit T-Shirts ",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+    "category": "clothing",
+    "childCategory": "men",
+    "image": ["https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+              "https://m.media-amazon.com/images/I/71kCd6hCevL._AC_UY1000_.jpg",
+              "https://m.media-amazon.com/images/I/71bVVKxjgeL._AC_UY1000_.jpg"],
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 3,
+    "title": "Mens Cotton Jacket",
+    "price": 55.99,
+    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+    "category": "clothing",
+    "childCategory": "men",
+    "image": ["https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTio8PaMz50ffl2q4LYEjl8ZAp1EYMwB74GtQ&s",
+              "https://5.imimg.com/data5/BV/UY/ZP/SELLER-59756470/mens-cotton-jacket.jpg"],
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "id": 4,
+    "title": "Mens Casual Slim Fit",
+    "price": 15.99,
+    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+    "category": "men's clothing",
+    "childCategory": "men",
+    "image": ["https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+              "https://image.made-in-china.com/202f0j00dfCUKBMIlwzi/100-Cotton-Oxford-Shirt-Men-Casual-Slim-Fit-Dress-Shirts.jpg",
+              "https://img.drz.lazcdn.com/3rd/q/aHR0cHM6Ly9nb25nbGFuZy5zMy51cy1lYXN0LTIuYW1hem9uYXdzLmNvbS91cGxvYWRzLzIwMjIvMDYvMjAvMjAyMi0wNi0yMF8xNjU1NzA2Njk5NDcyXzYyYjAxNDRiZDA3NTEuanBn_960x960q80.png_.webp"] ,
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 5,
+    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+    "price": 695,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "jewelery",
+    "image": ["https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+              "https://m.media-amazon.com/images/I/61gTLb-WX7L._AC_UY1100_.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsHliy2OtAqytiK5nax52qID1H-lKzTfPDivgBryqbCqHffOFDnQrsBw9b2yxWT0fj2ms&usqp=CAU"],
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 6,
+    "title": "Solid Gold Petite Micropave ",
+    "price": 168,
+    "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+    "category": "jewelery",
+    "image": ["https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+              "https://media.very.co.uk/i/very/W8IAY_SQ1_0000000036_GOLD_SLa",
+              "https://curvissa.scene7.com/is/image/OttoUK/296w/thomas-sabo-glamorous-cocktail-ring~32K676FRSP.jpg"],
+    "rating": {
+      "rate": 3.9,
+      "count": 70
+    }
+  },
+  {
+    "id": 7,
+    "title": "White Gold Plated Princess",
+    "price": 9.99,
+    "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+    "category": "jewelery",
+    "image": ["https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+              "https://cdn.shopify.com/s/files/1/0098/4832/4147/files/White-Gold-Plated-Silver-Princess-Cut-Moissanite-Ring-1ct-Moissanite-Engagement-Rings-_-Jewelry---Luxus-Moissanite-1688008387642_4098038d-c69e-4160-a480-6d0c2d671133_720x.jpg?v=1688056137",
+              "https://i.ebayimg.com/images/g/lssAAOSw~AxiMDzH/s-l1200.jpg"],
+    "rating": {
+      "rate": 3,
+      "count": 400
+    }
+  },
+  {
+    "id": 8,
+    "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+    "price": 10.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "category": "jewelery",
+    "image": ["https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+              "https://m.media-amazon.com/images/I/614UWKaETYL._AC_UY1000_.jpg",
+              "https://m.media-amazon.com/images/I/415QnbLXvvL._AC_.jpg"],
+    "rating": {
+      "rate": 1.9,
+      "count": 100
+    }
+  },
+  {
+    "id": 9,
+    "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+    "price": 64,
+    "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+    "category": "electronics",
+    "image": ["https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+              "https://www.bhphotovideo.com/cdn-cgi/image/fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/wd_wdbu6y0020bbk_wesn_2tb_elements_portable_hard_1699002919_1322074.jpg",
+              "https://www.makotekcomputers.com/cdn/shop/files/WD-WESTERN-DIGITAL-1TB-ELEMENTS-PORTABLE-EXTERNAL-HDD-12-MONTHS-WARRANTY-HARD-DRIVE-3.jpg?v=1715817613&width=1946"],
+    "rating": {
+      "rate": 3.3,
+      "count": 203
+    }
+  },
+  {
+    "id": 10,
+    "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+    "price": 109,
+    "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+    "category": "electronics",
+    "image": ["https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+              "https://lcdn.altex.ro/media/catalog/product/S/S/SSDSSDA1T00G26-1.jpg",
+              "https://cdn.dooca.store/65719/products/yfe1g43tcm1n5wrfx5cqkifzsb4ieqgy5kmy_620x620+fill_ffffff.png?v=1710359811&webp=0"],
+    "rating": {
+      "rate": 2.9,
+      "count": 470
+    }
+  },
+  {
+    "id": 11,
+    "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+    "price": 109,
+    "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+    "category": "electronics",
+    "image": ["https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+              "https://www.jiomart.com/images/product/original/rvdrspkgkx/silicon-power-ace-a55-256gb-2-5-sata-iii-ssd-product-images-orvdrspkgkx-p602462961-3-202306151311.jpg?im=Resize=(420,420)",
+              "https://www.jiomart.com/images/product/original/rvdrspkgkx/silicon-power-ace-a55-256gb-2-5-sata-iii-ssd-product-images-orvdrspkgkx-p602462961-2-202306151311.jpg?im=Resize=(420,420)"],
+    "rating": {
+      "rate": 4.8,
+      "count": 319
+    }
+  },
+  {
+    "id": 12,
+    "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+    "price": 114,
+    "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+    "category": "electronics",
+    "image": ["https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/61+lPq4Cu+L.jpg",
+              "https://m.media-amazon.com/images/S/aplus-media/vc/86e50b6e-526f-42d7-9310-85c5ed037fd6._CR0,0,600,450_PT0_SX600__.jpg"],
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 13,
+    "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+    "price": 599,
+    "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+    "category": "electronics",
+    "childCategory": "monitor",
+    "image": ["https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW07uLol_ztt9wqP4eOUfVqE7uuCTDmQr67w&s",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQyHVu-9BeHR1zRtfEm3Hf-cTJDcXW2ltMFg&s"],
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 14,
+    "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+    "price": 999.99,
+    "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+    "category": "electronics",
+    "image": ["https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/61urqYe+NDL.jpg",
+              "https://m.media-amazon.com/images/I/71C7jhFDA8L._AC_UF894,1000_QL80_.jpg"],
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 15,
+    "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+    "price": 56.99,
+    "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3TfWm0D48XzYGQ6CjRA5caKgxDoj2l08ngw&s",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN-iupO5Y3n3YGYekvoA8ewva_SpgTlkmtQYCRYGVy0I-hXovpeyy_fstdf8h3hJqyxfc&usqp=CAU"],
+    "rating": {
+      "rate": 2.6,
+      "count": 235
+    }
+  },
+  {
+    "id": 16,
+    "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+    "price": 29.95,
+    "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+  "https://m.media-amazon.com/images/I/41QoSADFv0L._AC_SY580_.jpg",
+"https://i5.walmartimages.com/seo/Juebong-Women-Spring-Autumn-Pu-Leather-Jacket-Moto-Biker-Faux-Female-Coat-Basic-Streetwear-Slim-Stand-Collar-Zip-Motorcycle-Suit-Belt-Tops-Brown-XXXX_3025be77-b3d4-43cd-8b53-14f98b0928d9.7eba298eab1da1549a5d782c1088f271.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"],
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 17,
+    "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+    "price": 39.99,
+    "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLkGNz9ZeT2IX8qXPnlzlo020iB13Rjbb1g&s",
+"https://m.media-amazon.com/images/I/61fzi8fjtEL.jpg"],
+    "rating": {
+      "rate": 3.8,
+      "count": 679
+    }
+  },
+  {
+    "id": 18,
+    "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+    "price": 9.85,
+    "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+              "https://m.media-amazon.com/images/I/41nzOXeob9L.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxkVx5DbTx-kDOW1WG_hUsKghh8RKJVkVEAFJXrY3S2YqoSmq1kkMJhIto1SOuR0ZFPuI&usqp=CAU"
+                          
+    ],
+    "rating": {
+      "rate": 4.7,
+      "count": 130
+    }
+  },
+  {
+    "id": 19,
+    "title": "Opna Women's Short Sleeve Moisture",
+    "price": 7.95,
+    "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+    "category": "clothing",
+    "childCategory": "women",
+
+    "image": ["https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTllzcn-VfaqLcwlIkQo3F1XOzU_n-Me8lG9Mb3QIYs-y4MxRab3yHtnkNnJjzJMSc3n4M&usqp=CAU",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEsl0AQNxys28BKOPcZUf3C1fDjj-lNGLvcZ4LxoiBVqZcE0r38PZ3PIO9BnE3VEG119I&usqp=CAU"],
+    "rating": {
+      "rate": 4.5,
+      "count": 146
+    }
+  },
+  {
+    "id": 20,
+    "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+    "price": 12.99,
+    "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+  "https://m.media-amazon.com/images/I/815QcauPV3L._AC_UY1000_.jpg",
+"https://images-na.ssl-images-amazon.com/images/I/817cdwV+gWL._AC_UL210_SR210,210_.jpg"],
+    "rating": {
+      "rate": 3.6,
+      "count": 145
+    }
+  },
+  {
+    "id": 22,
+    "title": "MSI Gaming GeForce RTX 3060 12GB 15",
+    "price": 285,
+    "description": "NVIDIA GeForce RTX 3060 12GB GDDR6 dedicated graphics card1710 MHz GPU clock speed and 1807 MHz memory clock speedDisplayPort x 3 (v1.4a) and HDMI 2.1 x 1 output interfaces7680 x 4320 maximum display resolution",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/71tduSp8ooL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/91MJHPSyhsL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/91WcZWBMEoL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 145
+    }
+  },
+  {
+    "id": 21,
+    "title": "GIGABYTE GeForce RTX 3060 Gaming",
+    "price": 299,
+    "description": "NVIDIA Ampere Streaming Multiprocessors. 2nd Generation RT Cores. 3rd Generation Tensor Cores. Powered by GeForce RTX 3060.Avoid using unofficial software. Integrated with 12GB GDDR6 192-bit memory interface",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE",
+    "image": ["https://m.media-amazon.com/images/I/61XAtpgr1lL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/718GT4lUSGL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71ip26psiWL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 845
+    }
+  },
+  {
+    "id": 23,
+    "title": "MSI GeForce RTX 4070 Ti Super 16G ",
+    "price": 840,
+    "description": "Chipset: GeForce RTX 4070 Ti Super. Extreme Clock / Memory: 2655 MHz / 21 Gbps. Video Memory: 16GB GDDR6X. Memory Interface: 256-bit",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/71WmGWSol1L._AC_SX466_.jpg",
+              "https://m.media-amazon.com/images/I/81tkInt96TL._AC_SX466_.jpg",
+              "https://m.media-amazon.com/images/I/81Vj-mgqxgL._AC_SX466_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 175
+    }
+  },
+  {
+    "id": 24,
+    "title": "GIGABYTE GeForce RTX 3050",
+    "price": 170,
+    "description": "NVIDIA Ampere Streaming Multiprocessors. 2nd Generation RT Cores. 3rd Generation Tensor Cores. Powered by GeForce RTX 3050. Integrated with 6GB GDDR6 96-bit memory interface",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTEi",
+    "image": ["https://m.media-amazon.com/images/I/71LeuNkhnTL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71VoeWLObRL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/7148gwkm-SL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 245
+    }
+  },
+  {
+    "id": 25,
+    "title": "MSI Gaming RTX 4070 TI Super 16G",
+    "price": 800,
+    "description": "Chipset: GeForce RTX 4070 Ti Super. Boost Clock / Memory: 2685 MHz / 21 Gbps. Video Memory: 16GB GDDR6X. Memory Interface: 256-bit",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/71cB5mqb-dL._AC_SX466_.jpg",
+              "https://m.media-amazon.com/images/I/81W52SHxh4L._AC_SX466_.jpg",
+              "https://m.media-amazon.com/images/I/714iN+So-zL._AC_SX466_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 345
+    }
+  },
+  {
+    "id": 26,
+    "title": "MSI Aegis ZS2 Gaming Desktop",
+    "price": 840,
+    "description": "MSI Aegis ZS2 Gaming Desktop: AMD Ryzen R9-7900X, GeForce RTX 4070 Super, 32GB DDR5, 2TB M.2 NVMe, Liquid Cooling, 80+ Gold PSU, WiFi 6E, Keyboard & Mouse, DIY Friendly, Windows 11 Home: B7NUE-853US",
+    "category": "Computers",
+    "childCategory": "Desktops",
+    "image": ["https://m.media-amazon.com/images/I/81bmWSsGPLL._AC_SX466_.jpg",
+              "https://m.media-amazon.com/images/I/71mh7pPxkdL._AC_SX466_.jpg",
+              "https://m.media-amazon.com/images/I/81sd1FIHqvL._AC_SX466_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 145
+    }
+  },
+  {
+    "id": 27,
+    "title": "MSI Gaming GeForce GTX 1650 128-Bit",
+    "price": 115,
+    "description": "Product Type -Video Card. Package Quantity-1. Package Dimension-13.6199999861076 inchesL X 10.4299999893614 inchesW X 3.3099999966238 inchesH",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/51o7JU3-iXS._AC_.jpg",
+              "https://m.media-amazon.com/images/I/51o7JU3-iXS._AC_.jpg",
+              "https://m.media-amazon.com/images/I/51o7JU3-iXS._AC_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 195
+    }
+  },
+  {
+    "id": 28,
+    "title": "MSI Gaming RTX 4080 Super 16G",
+    "price": 1200,
+    "description": "Chipset: GeForce RTX 4080 Super. Boost Clock / Memory: 2625 MHz / 23 Gbps. Video Memory: 16GB GDDR6X. Memory Interface: 256-bit. Output: DisplayPort x 2 (v1.4a) / HDMI x 2 (2.1a)",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/71LoU1sRHaL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71LoU1sRHaL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71E83tqA2iL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 445
+    }
+  },
+  {
+    "id": 29,
+    "title": "MSI Gaming GeForce GT 710 2GB",
+    "price": 55,
+    "description": "Chipset: NVIDIA GeForce GT 710; Maximum displays: 2. Video memory: 2gb DDR3/memory clock: 1600 MHz/memory interface: 64 bit. 300w system power supply requirement; Interface is PCI express 2.0 x16 uses x8",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/51P9SY93GrL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/61DFwgJK+KL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71pbgbGZzoL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 145
+    }
+  },
+  {
+    "id": 30,
+    "title": "MSI Gaming GeForce RTX 4090, 24GB",
+    "price": 2000,
+    "description": " Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/71EP3+gnSxL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/8154fOd8hqL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71RiPoXFnJL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 995
+    }
+  },
+  {
+    "id": 31,
+    "title": "MSI GeForce RTX 4070 Ti Super 16G",
+    "price": 840,
+    "description": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/71WmGWSol1L._AC_SX466_.jpg",
+              "https://m.media-amazon.com/images/I/81Vj-mgqxgL._AC_SX466_.jpg",
+              "https://m.media-amazon.com/images/I/71s67UTlA-L._AC_SX466_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 145
+    }
+  },
+  {
+    "id": 32,
+    "title": "MSI Gaming GeForce RTX 3070 Ti 8GB",
+    "price": 450,
+    "description": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/71f5IO65dCS._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/81hrJswkjfS._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/81PyBy-D7gS._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 145
+    }
+  },
+  {
+    "id": 33,
+    "title": "GIGABYTE AORUS GeForce RTX 3070 Ti",
+    "price": 450,
+    "description": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE ",
+    "image": ["https://m.media-amazon.com/images/I/71afWy-m5RS._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71Hf3YLOITS._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71B8NUeq0BS._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 220
+    }
+  },
+  {
+    "id": 34,
+    "title": "GIGABYTE Gaming GeForce RTX 3060 12GB ",
+    "price": 285,
+    "description": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE ",
+    "image": ["https://m.media-amazon.com/images/I/71tduSp8ooL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/91MJHPSyhsL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/91WcZWBMEoL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 35,
+    "title": "GIGABYTE GeForce RTX 3050",
+    "price": 170,
+    "description": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE ",
+    "image": ["https://m.media-amazon.com/images/I/71LeuNkhnTL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71VoeWLObRL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/61WvlEJDNjL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 50
+    }
+  },
+  {
+    "id": 36,
+    "title": "GIGABYTE GeForce RTX 3060 Gaming",
+    "price": 290,
+    "description": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE ",
+    "image": ["https://m.media-amazon.com/images/I/61XAtpgr1lL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71jMkZS9FdL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/718GT4lUSGL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 550
+    }
+  },
+  {
+    "id": 37,
+    "title": "GIGABYTE GeForce RTX 4060",
+    "price": 300,
+    "description": "GIGABYTE GeForce RTX 4060 Gaming OC 8G Graphics Card, 3X WINDFORCE Fans, 8GB 128-bit GDDR6, GV-N4060GAMING OC-8GD Video Card",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE ",
+    "image": ["https://m.media-amazon.com/images/I/71N7BLpLAhL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/610C5xRDLHL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71H6X2O7r+L._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 850
+    }
+  },
+  {
+    "id": 38,
+    "title": "GIGABYTE GeForce RTX 4060 AERO OC 8G",
+    "price": 320,
+    "description": "GIGABYTE GeForce RTX 4060 AERO OC 8G Graphics Card, 3X WINDFORCE Fans, 8GB 128-bit GDDR6, GV-N4060AERO OC-8GD Video Card",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE ",
+    "image": ["https://m.media-amazon.com/images/I/71exYzoMrqL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71Ua5s-NfOL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/61utWjtUpXL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 39,
+    "title": "GIGABYTE GV-N4090AERO OC-24GD GeForce RTX 4090 AERO OC 24G",
+    "price": 1950,
+    "description": "GIGABYTE GV-N4090AERO OC-24GD GeForce RTX 4090 AERO OC 24G Graphics Card, 3X WINDFORCE Fans, 24GB 384-bit GDDR6X, Video Card",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE ",
+    "image": ["https://m.media-amazon.com/images/I/61NKE9-LboL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71YLdvuiMwL._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71hrg29BiVL._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 850
+    }
+  },
+  {
+    "id": 40,
+    "title": "GIGABYTE GeForce RTX 3080 Ti Vision OC 12G ",
+    "price": 600,
+    "description": "GIGABYTE GeForce RTX 3080 Ti Vision OC 12G Graphics Card, 3X WINDFORCE Fans, 12GB 384-bit GDDR6X, GV-N308TVISION OC-12GD Video Card",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE ",
+    "image": ["https://m.media-amazon.com/images/I/71-TUmK+yHS._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71NNPzD-Y-S._AC_SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71ipaLS040S._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  }
+  
+]}
