@@ -95,39 +95,8 @@
   <h1>Products</h1>
   <div id="products"></div>
 
-  <script>
-    // Fetch data from the JSON server
-    fetch('http://localhost:3000/products')
-      .then(response => response.json())
-      .then(data => {
-        const productsContainer = document.getElementById('products');
-        
-        data.forEach(product => {
-          const productDiv = document.createElement('div');
-          productDiv.className = 'product';
-          
-          // Create image section
-          let imagesHtml = '';
-          product.image.slice(0, 3).forEach(img => {
-            imagesHtml += `<img src="${img}" alt="${product.title}">`;
-          });
+  <script type="module" src="../js/main.js">
 
-          productDiv.innerHTML = `
-            <h2>${product.title}</h2>
-            <div class="images-container">
-              ${imagesHtml}
-            </div>
-            <p class="price">Price: $${product.price}</p>
-            <p>${product.description}</p>
-            <p><strong>Category:</strong> ${product.category} - ${product.childCategory}</p>
-            <p class="rating">Rating: ${product.rating.rate} 
-              <span>(${product.rating.count} reviews)</span>
-            </p>
-          `;
-          productsContainer.appendChild(productDiv);
-        });
-      })
-      .catch(error => console.error('Error fetching products:', error));
   </script>
 </body>
 </html>
