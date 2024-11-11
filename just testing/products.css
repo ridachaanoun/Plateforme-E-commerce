@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+main
+{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+     /* padding: 10px 10px 10px 10px; */
+    padding: 10px;
+}
+.product-infos
+{
+    display: flex;
+    width: 100%;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product-description
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+img
+{
+    width: 40%;
+}
+.size
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+}
+.size button
+{
+    all:unset;
+    width: 20px;
+    height: 20px;
+    border: 10px;
+    border-radius: 2px;
+    font-size: 6px;
+    /* background-color: #DB4444; */
+}
