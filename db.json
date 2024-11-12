@@ -49,7 +49,7 @@
     "title": "Mens Casual Slim Fit",
     "price": 15.99,
     "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-    "category": "men's clothing",
+    "category": "clothing",
     "childCategory": "men",
     "image": ["https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
               "https://image.made-in-china.com/202f0j00dfCUKBMIlwzi/100-Cotton-Oxford-Shirt-Men-Casual-Slim-Fit-Dress-Shirts.jpg",
@@ -588,6 +588,156 @@
     "image": ["https://m.media-amazon.com/images/I/71-TUmK+yHS._AC_SX679_.jpg",
               "https://m.media-amazon.com/images/I/71NNPzD-Y-S._AC_SX679_.jpg",
               "https://m.media-amazon.com/images/I/71ipaLS040S._AC_SX679_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 41,
+    "title": "Lightweight Teardrop",
+    "price": 600,
+    "description": "Lightweight Teardrop Hoop Earrings for Women - 14k Gold/White Gold Plated Large Oval Pull Through Hoop Earrings High Polished Statement Jewelry Gift for Women",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/611tKOJgyuS._AC_SY535_.jpg",
+              "https://m.media-amazon.com/images/I/61bV3cBkPES._AC_SY535_.jpg",
+              "https://m.media-amazon.com/images/I/81cFIDgCCQL._AC_SY535_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 42,
+    "title": "Teardrop Earrings Dupes",
+    "price": 600,
+    "description": "Teardrop Earrings Dupes for Women Gold/Silver Chunky Hoop Earring Dangle Water Drop Hypoallergenic Earring Set for Women",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/61Af51Jr6bL._AC_SY535_.jpg",
+              "https://m.media-amazon.com/images/I/51SGczXwHKL._AC_SY535_.jpg",
+              "https://m.media-amazon.com/images/I/71P8lxqPJXL._AC_SY535_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 43,
+    "title": "Gold Plated Earrings",
+    "price": 600,
+    "description": "14K Gold Plated Earrings for Women Girls Dainty Pendant Earrings with 925 Sterling Silver Post Jewelry Gifts",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/51c-8KJSI4L._AC_SY675_.jpg",
+              "https://m.media-amazon.com/images/I/61Kc-m8OBxL._AC_SY675_.jpg",
+              "https://m.media-amazon.com/images/I/61p27FvWHKL._AC_SY675_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 44,
+    "title": "",
+    "price": 600,
+    "description": "",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["",
+              "",
+              ""],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 45,
+    "title": "",
+    "price": 600,
+    "description": "",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["",
+              "",
+              ""],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 46,
+    "title": "",
+    "price": 600,
+    "description": "",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["",
+              "",
+              ""],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 47,
+    "title": "",
+    "price": 600,
+    "description": "",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["",
+              "",
+              ""],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 48,
+    "title": "",
+    "price": 600,
+    "description": "",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["",
+              "",
+              ""],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 49,
+    "title": "",
+    "price": 600,
+    "description": "",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["",
+              "",
+              ""],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 50,
+    "title": "",
+    "price": 600,
+    "description": "",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["",
+              "",
+              ""],
     "rating": {
       "rate": 5,
       "count": 250
