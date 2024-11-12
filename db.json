@@ -49,7 +49,7 @@
     "title": "Mens Casual Slim Fit",
     "price": 15.99,
     "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-    "category": "men's clothing",
+    "category": "clothing",
     "childCategory": "men",
     "image": ["https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
               "https://image.made-in-china.com/202f0j00dfCUKBMIlwzi/100-Cotton-Oxford-Shirt-Men-Casual-Slim-Fit-Dress-Shirts.jpg",
@@ -591,6 +591,156 @@
     "rating": {
       "rate": 5,
       "count": 250
+    }
+  },
+  {
+    "id": 41,
+    "title": "Lightweight Teardrop",
+    "price": 80,
+    "description": "Lightweight Teardrop Hoop Earrings for Women - 14k Gold/White Gold Plated Large Oval Pull Through Hoop Earrings High Polished Statement Jewelry Gift for Women",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/611tKOJgyuS._AC_SY535_.jpg",
+              "https://m.media-amazon.com/images/I/61bV3cBkPES._AC_SY535_.jpg",
+              "https://m.media-amazon.com/images/I/81cFIDgCCQL._AC_SY535_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 42,
+    "title": "Teardrop Earrings Dupes",
+    "price": 200,
+    "description": "Teardrop Earrings Dupes for Women Gold/Silver Chunky Hoop Earring Dangle Water Drop Hypoallergenic Earring Set for Women",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/61Af51Jr6bL._AC_SY535_.jpg",
+              "https://m.media-amazon.com/images/I/51SGczXwHKL._AC_SY535_.jpg",
+              "https://m.media-amazon.com/images/I/71P8lxqPJXL._AC_SY535_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 850
+    }
+  },
+  {
+    "id": 43,
+    "title": "Gold Plated Earrings",
+    "price": 120,
+    "description": "14K Gold Plated Earrings for Women Girls Dainty Pendant Earrings with 925 Sterling Silver Post Jewelry Gifts",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/51c-8KJSI4L._AC_SY675_.jpg",
+              "https://m.media-amazon.com/images/I/61Kc-m8OBxL._AC_SY675_.jpg",
+              "https://m.media-amazon.com/images/I/61p27FvWHKL._AC_SY675_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 300
+    }
+  },
+  {
+    "id": 44,
+    "title": "Turandoss Dainty",
+    "price": 111,
+    "description": "Turandoss Dainty Layered Choker Necklace, Handmade 14K Gold Plated Y Pendant Necklace Multilayer Bar Disc Necklace Adjustable Layering Choker Necklaces for Women",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/51Y9MapedvL._AC_SY675_.jpg",
+              "https://m.media-amazon.com/images/I/61+1TTM7rpL._AC_SY675_.jpg",
+              "https://m.media-amazon.com/images/I/61or3+dV-ZL._AC_SY675_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 400
+    }
+  },
+  {
+    "id": 45,
+    "title": "Bracelets for Women Northern Lights Crystals ",
+    "price": 99,
+    "description": "LADY COLOUR ♥ A Little Romance ♥ Sterling Silver Bracelets for Women Northern Lights Crystals Bracelet 7(+2) Extension, Packaged with Jewelry Box, Mother's Day Birthday Anniversary Jewelry Gift for Women Girls",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/61wWef51XvL._AC_SY500_.jpg",
+              "https://m.media-amazon.com/images/I/817IU7ktOjL._AC_SY500_.jpg",
+              "https://m.media-amazon.com/images/I/71x7L48EU-L._AC_SY500_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 350
+    }
+  },
+  {
+    "id": 46,
+    "title": "PAVOI 14K Gold Plated",
+    "price": 136,
+    "description": "PAVOI 14K Gold Plated Cubic Zirconia Classic Tennis Bracelet for Women | Adjustable Slider ",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/51mGqEVTZYL._AC_SY395_.jpg",
+              "https://m.media-amazon.com/images/I/61y-sIyxsmL._AC_SY395_.jpg",
+              "https://m.media-amazon.com/images/I/71tI3NfJmnL._AC_SY395_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 400
+    }
+  },
+  {
+    "id": 47,
+    "title": "",
+    "price": 150,
+    "description": "",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/81BckyAUwiL._AC_SY500_.jpg",
+              "https://m.media-amazon.com/images/I/71dxGAkOI1L._AC_SY500_.jpg",
+              "https://m.media-amazon.com/images/I/714HxMrI-dL._AC_SY500_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 600
+    }
+  },
+  {
+    "id": 48,
+    "title": "PAVOI 14K Gold Plated Cubic Zirconia",
+    "price": 60,
+    "description": "PAVOI 14K Gold Plated Cubic Zirconia Solitaire Diamond Bracelet | Bridesmaid Bracelets | Curb Cable Bracelets for Women ",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/61N0ljHd4IL._AC_SY500_.jpg",
+              "https://m.media-amazon.com/images/I/81xnnAicDQL._AC_SY500_.jpg",
+              "https://m.media-amazon.com/images/I/71tFYuaA2RS._AC_SY500_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 250
+    }
+  },
+  {
+    "id": 49,
+    "title": "PAVOI 14K Gold Plated Chunky",
+    "price": 400,
+    "description": "PAVOI 14K Gold Plated Chunky Dome Statement Ring for Women | Marquise Cubic Zirconia Dome Ring | Thick Stackable Bands ",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/61oflPLzMxL._AC_SY500_.jpg",
+              "https://m.media-amazon.com/images/I/61iPKxmCoOL._AC_SY500_.jpg",
+              "https://m.media-amazon.com/images/I/81QfltuFOrL._AC_SY500_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 200
+    }
+  },
+  {
+    "id": 50,
+    "title": "PAVOI 14K Gold Plated",
+    "price": 120,
+    "description": "PAVOI 14K Gold Plated Cubic Zirconia Crossover Stackable Ring for Women | Marquise CZ Open Twist Eternity Band",
+    "category": "jewelery",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/71a+ohyQlPL._AC_SY675_.jpg",
+              "https://m.media-amazon.com/images/I/61vhFySP9OL._AC_SY675_.jpg",
+              "https://m.media-amazon.com/images/I/71pa1ZPE7nL._AC_SY675_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 190
     }
   }
   
