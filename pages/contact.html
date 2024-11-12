@@ -117,9 +117,9 @@
   <!---------------------------------------CONTACT------------------------------------------------->
 
 
-  <div class="bg-white flex items-center justify-center min-h-screen">
+  <div class="bg-white flex items-center justify-center min-h-screen ">
 
-    <div class="bg-white shadow rounded-lg p-8 w-[70%]  mx-auto flex flex-col md:flex-row gap-12">
+    <div class="bg-white shadow rounded-lg p-8  w-[70%]  mx-auto flex flex-col md:flex-row gap-12">
         
     
             <!------------------ Left Section------------------>
@@ -132,7 +132,7 @@
                         <h3 class="text-lg font-semibold">Call To Us</h3>
                     </div>
                     <p class="text-gray-600">We are available 24/7, 7 days a week.</p>
-                    <p class="text-gray-800 font-medium">Phone: +8801611122222</p>
+                    <p class="text-gray-800 ">Phone: +8801611122222</p>
                 </div>
                 
                 <p class="text-gray-400">_______________________________________</p>
@@ -146,25 +146,25 @@
                     </div>
                     <p class="text-gray-600">Fill out our form and we will contact</p>
                     <p class="text-gray-600">you within 24 hours.</p>
-                    <p class="text-gray-800 font-medium">Email: customer@exclusive.com</p>
-                    <p class="text-gray-800 font-medium">Email: support@exclusive.com</p>
+                    <p class="text-gray-800 ">Email: customer@exclusive.com</p>
+                    <p class="text-gray-800 ">Email: support@exclusive.com</p>
                 </div>
             </div>
 
             <!-------------------- Right Section-------------->
             <div class=" md:w-2/3">
-                <form class="space-y-4">
+                <form id="form" class="space-y-4">
                     
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <input type="text" placeholder="Your Name *" class="w-full p-3  bg-gray-100  rounded focus:outline-none focus:ring-2 focus:ring-red-600">
-                        <input type="email" placeholder="Your Email *" class="w-full p-3 bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-600">
-                        <input type="text" placeholder="Your Phone *" class="w-full p-3 bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-600">
+                        <input type="text" id="name" placeholder="Your Name *" class="w-full p-3  bg-gray-100  rounded focus:outline-none focus:ring-2 focus:ring-red-600">
+                        <input type="email" id="email" placeholder="Your Email *" class="w-full p-3 bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-600">
+                        <input type="text" id="phone" placeholder="Your Phone *" class="w-full p-3 bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-600">
                     </div>
                     
-                    <textarea placeholder="Your Message" class="w-full p-3 bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-600 h-60"></textarea>
+                    <textarea id="message" placeholder="Your Message" class="w-full p-3 bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-600 h-60"></textarea>
                     
                      
-                    <div class="flex items-end"><button type="submit" class="w-[25%] bg-red-500 text-white p-3 rounded font-semibold hover:bg-red-700 transition duration-200 ">Send Message</button></div>
+                    <div class=""><button type="submit" class="md:w-[25%] sm:w-[15%]  bg-red-500 text-white p-3 rounded  hover:bg-red-700 transition duration-200 ">Send Message</button></div>
                     
                        
                 </form>
@@ -174,9 +174,23 @@
 
 </div>
 
+<script>
+    document.getElementById('form').addEventListener('submit', 
+        function(event){
+            event.preventDefault();
 
+            const name=document.getElementById('name').value;
+            const email=document.getElementById('email').value;
+            const phone=document.getElementById('phone').value;
+            const message=document.getElementById('message').value;
 
-
+            console.log('Name:',name);
+            console.log('Email:',email);
+            console.log('Phone:',phone);
+            console.log('Message:',message);
+            
+            });
+</script>
 
 
 
