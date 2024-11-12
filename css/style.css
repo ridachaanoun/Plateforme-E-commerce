@@ -4,3 +4,8 @@
 *{
     font-family: "Poppins";
 }
+
+.active-category {
+    text-decoration: underline;
+    color: black; 
+  }
