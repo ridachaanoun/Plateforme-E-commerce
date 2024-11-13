@@ -10,122 +10,126 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <nav class="w-full border-b border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex justify-between items-center h-16">
-    
-            <!-- Mobile Menu Button for Mobile -->
-            <div class="flex items-center md:hidden">
-              <button id="menu-toggle" class="text-gray-500 hover:text-gray-900 focus:outline-none">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              </button>
+  <nav class="w-full border-b border-gray-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+  
+          <!-- Mobile Menu Button for Mobile -->
+          <div class="flex items-center md:hidden">
+            <button id="menu-toggle" class="text-gray-500 hover:text-gray-900 focus:outline-none">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+  
+          <!-- Logo Centered for Mobile -->
+          <div class="md:hidden text-xl font-bold flex-grow flex justify-center">
+            <a href="../index.html"><img src="../assets/logo/kN-removebg-preview.png" class="w-[90px] h-[90px] ml-8" alt=""></a>
+          </div>
+  
+          <!-- Icons for Mobile -->
+          <div class="flex items-center md:hidden space-x-4 ">
+            <a href="#" class="text-gray-500 hover:text-gray-900">
+              <img src="../assets/icon/email.png" class="w-6 h-6" alt="">
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900">
+              <img src="../assets/icon/shopping-cart (1).png" class="w-6 h-6" alt="">
+            </a>
+            
+          </div>
+  
+          <!-- Logo and Desktop Links -->
+          <div class="hidden md:flex items-center space-x-6 gap-80">
+            <a href="../index.html"><img src="../assets/logo/kN-removebg-preview.png" class="w-[100px] h-[100px]" alt=""></a>
+        
+            <!-- Desktop Navigation Links -->
+            <div class="space-x-6 flex">
+              <a href="#" class="text-gray-500 hover:text-red-500">Home</a>
+              <a href="#" class="text-gray-500 hover:text-red-500">Bag</a>
+              <a href="#" class="text-gray-500 hover:text-red-500">Sign Up</a>
+              <a href="#" class="text-gray-500 hover:text-red-500">Shop</a>
+              <a href="#" class="text-red-500 font-semibold">About Us</a>
+              <a href="#" class="text-gray-500 hover:text-red-500">Contact Us</a>
             </div>
-    
-            <!-- Logo Centered for Mobile -->
-            <div class="md:hidden text-xl font-bold flex-grow flex justify-center">
-              <a href="../index.html"><img src="../assets/logo/kN-removebg-preview.png" class="w-[80px] h-[80px] ml-8" alt=""></a>
-            </div>
-    
-            <!-- Icons for Mobile -->
-            <div class="flex items-center md:hidden space-x-4 ">
-              <a href="#" class="text-gray-500 hover:text-gray-900">
-                <img src="../assets/icon/email.png" class="w-6 h-6" alt="">
-              </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
-                <img src="../assets/icon/shopping-cart (1).png" class="w-6 h-6" alt="">
-              </a>
-              
-            </div>
-    
-            <!-- Logo and Desktop Links -->
-            <div class="hidden md:flex items-center space-x-6 gap-80">
-              <a href="../index.html"><img src="../assets/logo/kN-removebg-preview.png" class="w-[90px] h-[90px]" alt=""></a>
-          
-              <!-- Desktop Navigation Links -->
-              <div class="space-x-6 flex">
-                <a href="#" class="text-gray-500 hover:text-red-500">Home</a>
-                <a href="#" class="text-gray-500 hover:text-red-500">Bag</a>
-                <a href="#" class="text-gray-500 hover:text-red-500">Sign Up</a>
-                <a href="#" class="text-gray-500 hover:text-red-500">Shop</a>
-                <a href="#" class="text-red-500 font-semibold">About Us</a>
-              </div>
-            </div>
-    
-            <!-- Desktop Icons -->
-            <div class="hidden md:flex items-center space-x-4">
-              <a href="#" class="text-gray-500 hover:text-gray-900">
-                <img src="../assets/icon/email.png" class="w-6 h-6" alt="">
-              </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
-                <img src="../assets/icon/shopping-cart (1).png" class="w-6 h-6" alt="">
-    
-              </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
-                <img src="../assets/icon/user (1).png" class="w-6 h-6" alt="">
-              </a>
-            </div>
+          </div>
+  
+          <!-- Desktop Icons -->
+          <div class="hidden md:flex items-center space-x-4">
+            <a href="#" class="text-gray-500 hover:text-gray-900">
+              <img src="../assets/icon/heart.png" class="w-6 h-6" alt="">
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900">
+              <img src="../assets/icon/email.png" class="w-6 h-6" alt="">
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900">
+              <img src="../assets/icon/shopping-cart (1).png" class="w-6 h-6" alt="">
+  
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900">
+              <img src="../assets/icon/user (1).png" class="w-6 h-6" alt="">
+            </a>
           </div>
         </div>
-    
-        <!-- Mobile Menu Links -->
-        <div id="mobile-menu" class="hidden md:hidden">
-          <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-            <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Bag</a>
-            <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Sign Up</a>
-            <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Shop</a>
-            <a href="#" class="text-red-500 font-semibold block px-3 py-2 rounded-md text-base">About Us</a>
-          </div>
-        </div>
-      </nav>
-    <!-- Mobile Bottom Navigation Bar with Footer -->
-    <div class="fixed bottom-0 w-full bg-white border-t border-gray-300 text-gray-500 flex flex-col items-center py-2 md:hidden">
-        <!-- Navigation Icons -->
-        <div class="flex justify-around w-full">
-          <div class="flex flex-col items-center">
-            <img src="../assets/icon/home.png" class="w-5 h-5" alt="">
-            <span class="text-xs "><a href="">Home</a></span>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="../assets/icon/shopping-cart (2).png" class="w-5 h-5" alt="">
-            <span class="text-xs"><a href="">Shop</a></span>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="../assets/icon/bag.png" class="w-5 h-5" alt="">
-            <span class="text-xs"><a href="">Bag</a></span>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="../assets/icon/heart (1).png" class="w-5 h-5" alt="">
-            <span class="text-xs"><a href="">Favorites</a></span>
-          </div>
-          <div class="flex flex-col items-center text-red-600">
-            <img src="../assets/icon/user.png" class="w-5 h-5" alt="">
-            <span class="text-xs"><a href="">Profile</a></span>
-          </div>
-        </div>
-      
       </div>
+  
+      <!-- Mobile Menu Links -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+          <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Bag</a>
+          <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Sign Up</a>
+          <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Shop</a>
+          <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
+          <a href="#" class="text-red-500 font-semibold block px-3 py-2 rounded-md text-base">About Us</a>
+        </div>
+      </div>
+    </nav>
+  <!-- Mobile Bottom Navigation Bar with Footer -->
+  <div class="fixed bottom-0 w-full bg-white border-t border-gray-300 text-gray-500 flex flex-col items-center py-2 md:hidden">
+      <!-- Navigation Icons -->
+      <div class="flex justify-around w-full">
+        <div class="flex flex-col items-center">
+          <img src="../assets/icon/home.png" class="w-5 h-5" alt="">
+          <span class="text-xs "><a href="">Home</a></span>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="../assets/icon/shopping-cart (2).png" class="w-5 h-5" alt="">
+          <span class="text-xs"><a href="">Shop</a></span>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="../assets/icon/bag.png" class="w-5 h-5" alt="">
+          <span class="text-xs"><a href="">Bag</a></span>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="../assets/icon/heart (1).png" class="w-5 h-5" alt="">
+          <span class="text-xs"><a href="">Favorites</a></span>
+        </div>
+        <div class="flex flex-col items-center text-red-600">
+          <img src="../assets/icon/user.png" class="w-5 h-5" alt="">
+          <span class="text-xs"><a href="">Profile</a></span>
+        </div>
+      </div>
+    
+    </div>
 
   <main>
-        <ul class="flex flex-wrap items-center justify-center text-gray-900 gap-6 font-bold text-stone-400 p-10">
+        <ul class="flex flex-wrap items-center justify-center text-gray-900 gap-6 text-stone-400 p-10">
             <li cl><button class="hover:text-red-500 active-category">All</button></li>
             <li><button class="hover:text-red-500">Electronics</button> </li>
             <li><button class="hover:text-red-500">clothing</button> </li>
             <li><button class="hover:text-red-500">nvidia graphics card</button></li>
             <li><button class="hover:text-red-500">jewelery</button></li>
         </ul>
-        <div class="flex justify-end w-10/12">
+        <div class="flex justify-end w-11/12">
             <input type="text" id="search" placeholder="Search products..." class="w-64  h-[51] bg-[#F6F6F6]">
             <img src="../assets/imgs/Frame 747.png" alt="">
         </div>
-        <section id="productsContainer" class="flex flex-wrap justify-center gap-6">
+        <section id="productsContainer" class="flex flex-wrap justify-center gap-6 mt-10">
 
         </section>
   </main>
-
-<footer class="w-full bg-black text-white py-10 hidden md:block px-6 mt-10">
+  <footer class="w-full bg-black text-white py-10 hidden md:block px-6">
     <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-4 text-center md:text-left">
       
       <!-- Exclusive / Subscribe -->
@@ -202,11 +206,11 @@
   </footer>
 <script type="module" src="../js/shop.js"></script>
 <script>
-// Toggle mobile menu
-document.getElementById('menu-toggle').addEventListener('click', function() {
-  var menu = document.getElementById('mobile-menu');
-  menu.classList.toggle('hidden');
-});
-</script>
+  // Toggle mobile menu
+  document.getElementById('menu-toggle').addEventListener('click', function() {
+    var menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+  });
+  </script>
 </body>
 </html>
