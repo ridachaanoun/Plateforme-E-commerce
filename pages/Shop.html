@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   
   <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
 <body>
   <nav class="w-full border-b border-gray-200">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div class="flex justify-between items-center h-16">
   
           <!-- Mobile Menu Button for Mobile -->
@@ -40,7 +41,7 @@
           </div>
   
           <!-- Logo and Desktop Links -->
-          <div class="hidden md:flex items-center space-x-6 gap-80">
+          <div class="hidden md:flex items-center space-x-6 gap-80 max-[1120px]:gap-36 max-[920px]:gap-16 max-[841px]:gap-0 ">
             <a href="../index.html"><img src="../assets/logo/kN-removebg-preview.png" class="w-[100px] h-[100px]" alt=""></a>
         
             <!-- Desktop Navigation Links -->
@@ -49,7 +50,7 @@
               <a href="#" class="text-gray-500 hover:text-red-500">Bag</a>
               <a href="#" class="text-gray-500 hover:text-red-500">Sign Up</a>
               <a href="#" class="text-red-500  hover:text-red-500 font-semibold">Shop</a>
-              <a href="#" class="text-gray-500 hover:text-red-500">About Us</a>
+              <a href="about.html" class="text-gray-500 hover:text-red-500">About Us</a>
               <a href="#" class="text-gray-500 hover:text-red-500">Contact Us</a>
             </div>
           </div>
@@ -113,9 +114,8 @@
     
     </div>
 
-  <main>
-        <ul class="flex flex-wrap items-center justify-center text-gray-900 gap-6 text-stone-400 p-10">
-        <ul class="flex flex-wrap items-center justify-center text-gray-900 gap-6 text-stone-400 p-10">
+  <main class="mb-16 ">
+        <ul class="flex flex-wrap items-center justify-center text-gray-900 gap-6 text-stone-400 pt-8 mb-4">
             <li cl><button class="hover:text-red-500 active-category">All</button></li>
             <li><button class="hover:text-red-500">Electronics</button> </li>
             <li><button class="hover:text-red-500">clothing</button> </li>
@@ -129,8 +129,8 @@
         <section id="productsContainer" class="flex flex-wrap justify-center gap-6 mt-10 h-[350]">
 
         </section>
+        <div id="paginationContainer" class="pagination-controls flex justify-center mt-4"></div>
   </main>
-  <footer class="w-full bg-black text-white py-10 hidden md:block px-6">
   <footer class="w-full bg-black text-white py-10 hidden md:block px-6">
     <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-4 text-center md:text-left">
       
@@ -206,6 +206,7 @@
       © Copyright Rimel 2022. All rights reserved
     </div>
   </footer>
+
 <script type="module" src="../js/shop.js"></script>
 <script>
   // Toggle mobile menu
