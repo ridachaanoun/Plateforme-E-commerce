@@ -34,7 +34,7 @@ async function renderProducts(category = 'All', searchQuery = '') {
   filteredProducts.forEach(function(product) {
 
     const productDiv = document.createElement('div');
-    productDiv.className = 'product rounded-lg shadow-md hover:shadow-lg transition flex flex-col';
+    productDiv.className = 'product flex flex-col';
 
     const firstImage = product.image[0] || 'placeholder.jpg';
     const heartIcon = document.createElement('i');
@@ -69,7 +69,7 @@ async function renderProducts(category = 'All', searchQuery = '') {
         <img class=" h-28 w-28 mix-blend-multiply " src="${firstImage}" alt="${product.title} image">
         </div>
 
-        <h2 class="text-xl font-semibold h-8 overflow-hidden p-2 mt-2 py-2">${product.title}</h2>
+        <h2 class="text-base text-black font-medium h-8 overflow-hidden p-2 py-2">${product.title}</h2>
 
         <p class="text-bold  text-[#DB4444] p-2 "> ${product.price}$
   <div class="text-sm text-yellow-500 p-2">
