@@ -46,7 +46,7 @@ async function renderProducts(category = 'All', searchQuery = '') {
 
 
     let forheart = document.createElement("div");
-    forheart.classList='relative w-80'
+    forheart.classList='relative w-80 h-[350px] w-[270px]'
 
     heartIcon.addEventListener('click', function() {
 
