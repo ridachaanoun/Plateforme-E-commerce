@@ -65,15 +65,17 @@ async function renderProducts(category = 'All', searchQuery = '') {
       });
 
     productDiv.innerHTML = `
-        <div class="flex justify-center bg-[#F5F5F5]">
-        <img class=" h-40 w-40 mix-blend-multiply " src="${firstImage}" alt="${product.title} image">
+        <div class="flex justify-center bg-[#F5F5F5] h-[12rem] pt-10  ">
+        <img class=" h-28 w-28 mix-blend-multiply " src="${firstImage}" alt="${product.title} image">
         </div>
 
-        <h2 class="text-xl font-semibold h-10 mt-2 bg-blue-500 text-white py-2">${product.title}</h2>
+        <h2 class="text-xl font-semibold h-8 overflow-hidden p-2 mt-2 py-2">${product.title}</h2>
 
-        <p class="text-sm text-yellow-500 mx-4 mt-2">Rating: ${product.rating.rate}
-          <span class="text-gray-400">(${product.rating.count} reviews)</span>
-        </p>
+        <p class="text-bold  text-[#DB4444] p-2 "> ${product.price}$
+  <div class="text-sm text-yellow-500 p-2">
+    ${Stars(product.rating.rate)}
+    <span class="text-gray-400">(${product.rating.count} reviews)</span>
+  </div>
 
     `;
 
@@ -141,10 +143,10 @@ if (lCategory) {
     }
   });
 
-  renderProducts(lCategory); // Render products for loaclstorage
-
+  
   // clear category
   localStorage.removeItem("category");
+  renderProducts(lCategory); // Render products for loaclstorage
 } else {
   renderProducts(); 
 }
@@ -152,23 +154,21 @@ if (lCategory) {
 
 
 
+// function to generate stars
+function Stars(rating) {
+  const maxStars = 5;
+  let starHTML = '';
 
+  for (let i = 1; i <= maxStars; i++) {
+    if (i <= Math.floor(rating)) {
+      starHTML += '<i class="fa-solid fa-star text-yellow-500"></i>'; 
+    } else if (i === Math.ceil(rating) && rating % 1 !== 0) {
+      starHTML += '<i class="fa-solid fa-star-half-stroke text-yellow-500"></i>'; 
+    } else {
+      starHTML += '<i class="fa-regular fa-star text-gray-300"></i>'; 
+    }
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // renderProducts();
+  return starHTML;
+}
 
