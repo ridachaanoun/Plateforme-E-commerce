@@ -755,22 +755,22 @@
               "https://m.media-amazon.com/images/I/81oQigMos7L._AC_SL1500_.jpg"],
     "rating": {
       "rate": 5,
-      "count": 190
+      "count": 450
     }
   },
   {
-    "id": ,
-    "title": "",
-    "price": ,
-    "description": "",
-    "category": "",
-    "childCategory": "",
-    "image": ["",
-              "",
-              ""],
+    "id": 52,
+    "title": "Zotac GEFORCE RTX",
+    "price": 641,
+    "description": "Zotac GEFORCE RTX 4070 Super Twin Edge 12GB",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE",
+    "image": ["https://m.media-amazon.com/images/I/81YGmB5xPBL._AC_SX425_.jpg",
+              "https://m.media-amazon.com/images/I/81YGmB5xPBL._AC_SX425_.jpg",
+              "https://m.media-amazon.com/images/I/61EME69MY-L._AC_SX355_.jpg"],
     "rating": {
       "rate": 5,
-      "count": 190
+      "count": 110
     }
   },
   {
