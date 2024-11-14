@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type= "module" src="index-js.js" defer ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        header
+        {
+            background-image: url(assets/imgs/background-1.png);
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            color: white;
+            font-style: normal; */
+        }
+        #background-2
+        {
+            background-image: url(assets/imgs/background-2.png);
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 45%;
+            width: 95%;
+        }
+        #discount-background
+        {
+            background-image: url(assets/imgs/discount.png);
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 45%;
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="text-white text-5xl p-10">The Holiday Gift Guide</div>
+        <div class="text-white text-3xl">You won’t have to check our site</div>
+        <div class="text-white text-3xl pb-[60px]">twice to find something for everyone.</div>
+        <button class="text-black bg-white w-[124px] h-[40px] ">SHOP NOW</button>
+    </header>
+    <main>
+
+
+        <section class="flex justify-center flex-col md:items-center ">
+            <h1 class="text-[#DB4444] text-3xl p-8">Shop by Category</h1>
+            <p class=" text-2xl">Explore our range across Clothing, Electronics, and Furniture.</p>
+            <p class=" text-2xl">Find stylish outfits, the latest tech, and Quality </p>
+            <div id="section1-images" class="flex w-[100%] flex-wrap md:flex-nowrap justify-center items-center gap-10 p-20">
+                <div id="nvidia-graphics-card" class="w-[40vw] flex flex-col items-center gap-2">
+                    <img  src="assets/imgs/graphic card.png" alt="">
+                    <p>Graphic Cards</p>
+                </div>
+                <div id="clothing" class="w-[40vw] flex flex-col items-center gap-2">
+                    <img  src="assets/imgs/jacket.png" alt="">
+                    <p>Clothing</p>
+                </div>
+                <div id="electronics" class="w-[40vw] flex flex-col items-center gap-2">
+                    <img  src="assets/imgs/phone.png" alt="">
+                    <p>Electronics</p>
+                </div>
+                <div id="jewelery" class="w-[40vw] flex flex-col  items-center justify-between gap-16">
+                    <img  class="" src="assets/imgs/jewelery2.jpg" alt="">
+                    <p>Jewelery</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="flex flex-col p-6 gap-6" >
+            <div class="flex  pb-4 justify-between">
+            <h2 class="text-[#DB4444] text-3xl ">Most Popular Products</h2>
+            <button class="bg-black text-white w-[160px] h-[40px] rounded-[40px]">View All</button>
+            </div>
+            <div>
+            <p class="text-xl">Discover our bestsellers in clothing, electronics, and furniture,</p>
+            <p class="text-xl">featuring top styles, innovative tech, and quality designs that customers love.</p>
+            </div>
+            <div id="imagesContainer" class="flex items-center justify-center flex-wrap gap-8">
+            </div>
+        </section>
+
+        <section class="w-[100wh] h-[70vh] flex justify-center items-center">
+            <div id="background-2" class="flex justify-center items-center flex-col gap-7">
+                <div>
+                <p class="text-white text-2xl">We’re on a Mission To Clean Up the Industry</p>
+                <p class="text-white">Read about our progress in our latest Impact Report</p>
+            </div>
+                <button class="text-black bg-white w-[124px] h-[40px]">LEARN MORE</button>
+            </div>
+        </section>
+
+        <section class="flex flex-col gap-6" >
+            <div class="flex  pb-4 justify-between">
+            <h2 class="text-[#DB4444] text-3xl ">Featured Products</h2>
+            <button class="bg-black text-white w-[160px] h-[40px] rounded-[40px]">View All</button>
+            </div>
+            <div>
+            <p class="text-xl">Discover our handpicked selection of must-have items,</p>
+            <p class="text-xl">featured the latest trends and timeless classics that elevate your style.</p>
+            </div>
+            <div id="imagesContainer2" class="flex items-center justify-center flex-wrap gap-10 bg-">
+            </div>
+        </section>
+
+
+        <section class="flex flex-col justify-center w-[100vw] items-center py-[40px] gap-4">
+            <p class="text-2xl">You’ve Made Your List</p>
+            <div class="w-[80%]">
+                <img src="assets/imgs/made-list.png" alt="">
+            </div>
+            <p>We’ve got gifts you won’t have to check twice</p>
+            <p class="underline">SEE MORE</p>
+        </section>
+
+        <section class="flex flex-col justify-center w-[100vw] items-center py-[40px] gap-4">
+            <p class="text-2xl">Cleaner Fashion</p>
+            <div class="w-[80%] flex justify-center">
+                <img src="assets/imgs/cleaner-fashin.png" alt="">
+            </div>
+            <p>See the sustainability efforts behind each of our products </p>
+            <p class="underline">SEE MORE</p>
+        </section>
+
+        <section class="w-[100vw] h-[70vh] flex justify-center">
+            <div id="discount-background" class="flex flex-col items-center justify-center gap-5">
+                <p class="text-white text-4xl">-25% of Your First Order</p>
+                <button class="text-black bg-white w-[124px] h-[40px] ">READ MORE</button>
+            </div>
+        </section>
+
+        <section class="flex flex-col justify-center items-center gap-14">
+            <div class="flex gap-7 flex-col">
+            <h3 class="text-[#DB4444] text-3xl">More To Explore</h3>
+            <div class="flex justify-center flex-col ">
+            <p>Dive into our full collection, from trendy outfits to timeless classics,</p>
+            <p>and discover new arrivals, exclusive deals,</p>
+            <p>and more to elevate your wardrobe.</p>
+            </div>
+            </div>
+            <div class="flex justify-center items-center flex-col w-[70%]">
+            <img src="assets/imgs/ourproducts-img.png" alt="">
+            <p>Our Products</p>
+            </div>
+            <div class="flex justify-center items-center flex-col w-[70%]">
+                <img src="assets/imgs/ourstores-image.png" alt="">
+                <p>Our Stores</p>
+            </div>
+            <div class="flex justify-center items-center flex-col w-[70%]">
+                <img src="assets/imgs/carreer-img.png" alt="">
+                <p>Career</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
