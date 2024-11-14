@@ -789,18 +789,18 @@
     }
   },
   {
-    "id": ,
-    "title": "",
-    "price": ,
-    "description": "",
-    "category": "",
-    "childCategory": "",
-    "image": ["",
-              "",
-              ""],
+    "id": 54,
+    "title": "ASUS TUF GAMING",
+    "price": 476,
+    "description": "ASUS TUF GAMING NVIDIA GeForce RTX 4060 Ti – Carte graphique gaming (8GB GDDR6X, PCIe 4.0, DLSS 3, HDMI 2.1a, Display Port 1.4a, ventilateurs axiaux)",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE",
+    "image": ["https://m.media-amazon.com/images/I/71pixdzfjjL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/61vHJbb3SjL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/61+smU+9VTL._AC_SY355_.jpg"],
     "rating": {
       "rate": 5,
-      "count": 190
+      "count": 290
     }
   },
   {
