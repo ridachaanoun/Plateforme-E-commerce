@@ -175,5 +175,22 @@ function Stars(rating) {
   return starHTML;
 }
 
-// Initial render
-renderProducts();
+// category from localStorage
+let lCategory = localStorage.getItem("category"); 
+
+if (lCategory) {
+  filterButtons.forEach(function (btn) {
+    if (btn.innerText.toLowerCase() === lCategory.toLowerCase()) {
+      btn.classList.add('active-category'); 
+    } else {
+      btn.classList.remove('active-category'); 
+    }
+  });
+
+  renderProducts(lCategory); // Render products for loaclstorage
+
+  // clear category
+  localStorage.removeItem("category");
+} else {
+  renderProducts(); 
+}
