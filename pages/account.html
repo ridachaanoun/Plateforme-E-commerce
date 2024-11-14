@@ -123,7 +123,7 @@
 
   <div class="max-w-[70%] mx-auto  bg-white shadow-sm rounded-md md:py-10 md:px-24 md:my-16  my-8  mb-16 py-4">
     <h4 class="text-red-600 text-xl mb-4">Edit Your Profile</h4>
-    <form class="grid grid-cols-1 gap-4">
+    <form id="form" class="grid grid-cols-1 gap-4">
         
         <!----------------- First Name and Last Name --------------->
         <div class="grid grid-cols-1 md:grid-cols-2 md:gap-16 gap-10">
@@ -169,6 +169,32 @@
 
     </form>
 </div>
+
+
+<script>
+  document.getElementById('form').addEventListener('submit', 
+      function(event){
+          event.preventDefault();
+
+          const fname=document.getElementById('fname').value;
+          const lname=document.getElementById('lname').value;
+          const email=document.getElementById('email').value;
+          const adresse=document.getElementById('adresse').value;
+          const CP=document.getElementById('CP').value;
+          const NP=document.getElementById('NP').value;
+          const CNP=document.getElementById('CNP').value;
+
+          console.log('First Name:',fname);
+          console.log('Last Name:',lname);
+          console.log('Email:',email);
+          console.log('Address:',adresse);
+          console.log('Current Password:',CP);
+          console.log('New Password:',NP);
+          console.log('Confirm New Password:',CNP);
+
+          
+          });
+</script>
 
 
 
