@@ -804,18 +804,18 @@
     }
   },
   {
-    "id": ,
-    "title": "",
-    "price": ,
-    "description": "",
-    "category": "",
-    "childCategory": "",
-    "image": ["",
-              "",
-              ""],
+    "id": 55,
+    "title": "PNY Carte Graphique",
+    "price": 523,
+    "description": "PNY Carte Graphique GEFORCE RTX™ 4060 Ti 8GB XLR8 Gaming Verto Triple Fan Edition DLSS 3",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE",
+    "image": ["https://m.media-amazon.com/images/I/61lWvDoH+DL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/51LziKqKU9L._AC_SL1000_.jpg",
+              "https://m.media-amazon.com/images/I/51n-m9s+iZL._AC_SY355_.jpg"],
     "rating": {
       "rate": 5,
-      "count": 190
+      "count": 390
     }
   },
   {
