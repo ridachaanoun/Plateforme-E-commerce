@@ -834,18 +834,18 @@
     }
   },
   {
-    "id": ,
-    "title": "",
-    "price": ,
-    "description": "",
-    "category": "",
-    "childCategory": "",
-    "image": ["",
-              "",
-              ""],
+    "id": 57,
+    "title": "Calvin Klein Jeans ",
+    "price": 75,
+    "description": "Calvin Klein Jeans Pantalons Femme",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/619ROn71s-L._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/61tsbInwE7L._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/61+3I4IzlgL._AC_SY445_.jpg"],
     "rating": {
       "rate": 5,
-      "count": 190
+      "count": 660
     }
   }
   
