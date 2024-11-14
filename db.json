@@ -742,7 +742,22 @@
       "rate": 5,
       "count": 190
     }
-  }
+  },
+  {
+    "id": 51,
+    "title": "MSI GeForce RTX",
+    "price": 604,
+    "description": "MSI GeForce RTX 4070 Ventus 2X E1 12G OC Carte Graphique de Jeu - 12 Go GDDR6, 2490 MHz, PCI Express Gen 4, 192 Bits, 3X DP v 1.4a, HDMI 2.1a (Prend en Charge 4K & 8K HDR)",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE",
+    "image": ["https://m.media-amazon.com/images/I/718CP4UcXNL._AC_SX425_.jpg",
+              "https://m.media-amazon.com/images/I/81vzLtDYkPL._AC_SX425_.jpg",
+              "https://m.media-amazon.com/images/I/81oQigMos7L._AC_SL1500_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 190
+    }
+  },
   {
     "id": ,
     "title": "",
@@ -757,7 +772,7 @@
       "rate": 5,
       "count": 190
     }
-  }
+  },
   {
     "id": ,
     "title": "",
@@ -772,7 +787,7 @@
       "rate": 5,
       "count": 190
     }
-  }
+  },
   {
     "id": ,
     "title": "",
@@ -787,7 +802,7 @@
       "rate": 5,
       "count": 190
     }
-  }
+  },
   {
     "id": ,
     "title": "",
@@ -802,7 +817,7 @@
       "rate": 5,
       "count": 190
     }
-  }
+  },
   {
     "id": ,
     "title": "",
@@ -817,7 +832,7 @@
       "rate": 5,
       "count": 190
     }
-  }
+  },
   {
     "id": ,
     "title": "",
