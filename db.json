@@ -904,7 +904,7 @@
               "https://m.media-amazon.com/images/I/81YpGF1bhNL._AC_SX342_.jpg",
               "https://m.media-amazon.com/images/I/81e5ZnIo+JL._AC_SX342_.jpg"],
     "rating": {
-      "rate": 5,
+      "rate": 4,
       "count": 440
     }
   },
@@ -921,6 +921,126 @@
     "rating": {
       "rate": 5,
       "count": 220
+    }
+  },
+  {
+    "id": 63,
+    "title": "Gaming Mouse",
+    "price": 37,
+    "description": "Logitech G502 HERO High Performance Wired Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, On-Board Memory, PC / Mac",
+    "category": "Electronics",
+    "childCategory": "Gaming accessories",
+    "image": ["https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/71sgEIlSvfL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/61vThyaOrHL._AC_SY355_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 185
+    }
+  },
+  {
+    "id": 64,
+    "title": "Wireless Gaming Mouse",
+    "price": 10,
+    "description": "Wireless Gaming Mouse, Rechargeable Wireless Computer Mouse with Type-C Fast Charging, Ergonomic Mouse with 3 Adjustable DPI, 6 Silent Buttons, LED Light, Long Battery Life for Laptop, PC, Mac",
+    "category": "Electronics",
+    "childCategory": "Gaming accessories",
+    "image": ["https://m.media-amazon.com/images/I/71ncnCl8x3L._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/81fFM1D28vL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/71BpxQReJqL._AC_SY355_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 186
+    }
+  },
+  {
+    "id": 65,
+    "title": "Glorious Model O Wireless Gaming Mouse",
+    "price": 73,
+    "description": "Glorious Model O Wireless Gaming Mouse - Superlight, 69g Honeycomb Design, RGB, Ambidextrous, Lag Free 2.4GHz Wireless, Up to 71 Hours Battery - Matte White",
+    "category": "Electronics",
+    "childCategory": "Gaming accessories",
+    "image": ["https://m.media-amazon.com/images/I/71gL7gGh3iL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+              "https://m.media-amazon.com/images/I/51-0mYzCdNL._AC_SX355_.jpg",
+              "https://m.media-amazon.com/images/I/51TisABdERL._AC_SX355_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 187
+    }
+  },
+  {
+    "id": 66,
+    "title": "Razer Basilisk V3",
+    "price": 49,
+    "description": "Razer Basilisk V3 Customizable Ergonomic Gaming Mouse: Fastest Gaming Mouse Switch - Chroma RGB Lighting - 26K DPI Optical Sensor - 11 Programmable Buttons - HyperScroll Tilt Wheel - Classic Black",
+    "category": "Electronics",
+    "childCategory": "Gaming accessories",
+    "image": ["https://m.media-amazon.com/images/I/61AcT0ZuO3L._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/71ogW8jLA+L._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/61LmB1Vu1cL._AC_SY355_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 188
+    }
+  },
+  {
+    "id": 67,
+    "title": "Maxi Dress",
+    "price": 27,
+    "description": "Amazon Essentials Women's Tank Waisted Maxi Dress (Available in Plus Size)",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/61R0h6PLmgL._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/61HVCMzXAdL._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/81XkutOG1BL._AC_SX342_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 189
+    }
+  },
+  {
+    "id": 68,
+    "title": "Hanes Men's Hoodie",
+    "price": 13,
+    "description": "Hanes Men's Hoodie, EcoSmart Fleece Hoodie, Hooded Sweatshirt for Men",
+    "category": "clothing",
+    "childCategory": "men",
+    "image": ["https://m.media-amazon.com/images/I/61JckjKagSL._AC_SX385_.jpg",
+              "https://m.media-amazon.com/images/I/71qJhfMQDaL._AC_SX385_.jpg",
+              "https://m.media-amazon.com/images/I/71svh034VHL._AC_SX385_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 190
+    }
+  },
+  {
+    "id": 69,
+    "title": "Shirts for Winter",
+    "price": 36,
+    "description": "G Gradual Sherpa Lined Sweatshirts for Men Fleece Crewneck Sweatshirt Pullover Warm Shirts for Winter",
+    "category": "clothing",
+    "childCategory": "men",
+    "image": ["https://m.media-amazon.com/images/I/71y0fZTzFML._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/41M76XFzwlL._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/410aXwtrhUL._AC_SX342_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 191
+    }
+  },
+  {
+    "id": 70,
+    "title": "Sweatpants",
+    "price": 12,
+    "description": "Fruit of the Loom Eversoft Fleece Elastic Bottom Sweatpants with Pockets, Relaxed Fit, Moisture Wicking, Breathable",
+    "category": "clothing",
+    "childCategory": "men",
+    "image": ["https://m.media-amazon.com/images/I/61Y8pQkviDL._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/6112AP+pyJL._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/81OT03XeDEL._AC_SY445_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 192
     }
   },
   
