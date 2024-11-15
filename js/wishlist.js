@@ -51,7 +51,7 @@ function cards(products) {
     products.forEach(product => {
         // Generate the HTML for each product card
         htmlContent += `
-        <div class="flex flex-col items-center justify-between bg-[#F5F5F5] p-4 rounded-lg shadow-lg w-[350px] h-[322px]" id="product-${product.id}">
+        <div class="flex flex-col items-center justify-between bg-[#F5F5F5] p-4 rounded-lg shadow-lg w-[270px] max-[600px]:w-[200px] h-[322px]" id="product-${product.id}">
             <div class="flex justify-center bg-[#F5F5F5] h-[12rem] pt-10">
                 <img class="h-28 w-28 mix-blend-multiply" src="${product.image[0]}" alt="${product.title} image">
             </div>
