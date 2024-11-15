@@ -8,14 +8,26 @@ console.log(products);
 let wishlist = localStorage.getItem("wishlistIds");
 console.log(wishlist);
 
+// Get the wishlist counter span element
+const wishlistCounter = document.querySelector('.conter-wishlist');
+
 // If no wishlist is found, display a message and exit
 if (!wishlist || wishlist === '[]') {
     const message = "Nothing to show"; 
     const root = document.querySelector("#productDiv");
     root.innerHTML = `<p class="text-center text-xl">${message}</p>`;
+    // Set wishlist counter to 0 if no items in wishlist
+    if (wishlistCounter) {
+        wishlistCounter.textContent = '0';
+    }
 } else {
     // If wishlist exists, parse it from JSON
     wishlist = JSON.parse(wishlist);
+
+    // Update the counter with the number of items in the wishlist
+    if (wishlistCounter) {
+        wishlistCounter.textContent = wishlist.length;
+    }
 
     // Filter the products to show only those that are in the wishlist
     const wishlistProducts = products.filter(product => wishlist.includes(product.id));
@@ -61,23 +73,16 @@ function cards(products) {
         const productCard = document.getElementById(`product-${product.id}`);
         if (productCard) {
             productCard.addEventListener('click', () => {
-                // Create new content to append
-                const newContent = document.createElement('div');
-                newContent.classList.add('p-4', 'bg-blue-200', 'rounded-lg', 'my-4');
-                newContent.innerHTML = `
-                    <p class="text-xl font-bold text-gray-800">You clicked on: ${product.title}</p>
-                    <p class="text-lg">This product is amazing! Here is some more information...</p>
-                `;
-                // Append the new content to the root div
-                root.appendChild(newContent);
+
+                    localStorage.setItem('productId', product.id);
+                    window.location.href = 'your-product-details-page.html';
+
             });
             console.log(productCard);
             
         }
     });
 }
-
-
 
 // Function to generate the star rating display
 function Stars(rating) {
@@ -95,5 +100,8 @@ function Stars(rating) {
     }
   
     return starHTML;
-  }
-    
+}
+console.log(
+    "%c today tomorrow that s it", 
+    "background-color: black; color: red; font-size: 16px; padding: 8px; border-radius: 4px; display: inline-block;"
+  );
