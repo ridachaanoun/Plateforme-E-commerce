@@ -66,7 +66,7 @@ async function renderProducts(category = 'All', searchQuery = '', page = 1) {
 
     productDiv.addEventListener('click', function() {
       localStorage.setItem('productId', product.id);
-      window.location.href = 'your-product-details-page.html';
+      window.location.href = '../pages/Product-Details.html';
     });
 
     forheart.appendChild(heartIcon);
