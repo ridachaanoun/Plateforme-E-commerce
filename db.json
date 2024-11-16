@@ -742,6 +742,306 @@
       "rate": 5,
       "count": 190
     }
+  },
+  {
+    "id": 51,
+    "title": "MSI GeForce RTX",
+    "price": 604,
+    "description": "MSI GeForce RTX 4070 Ventus 2X E1 12G OC Carte Graphique de Jeu - 12 Go GDDR6, 2490 MHz, PCI Express Gen 4, 192 Bits, 3X DP v 1.4a, HDMI 2.1a (Prend en Charge 4K & 8K HDR)",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/718CP4UcXNL._AC_SX425_.jpg",
+              "https://m.media-amazon.com/images/I/81vzLtDYkPL._AC_SX425_.jpg",
+              "https://m.media-amazon.com/images/I/81oQigMos7L._AC_SL1500_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 450
+    }
+  },
+  {
+    "id": 52,
+    "title": "Zotac GEFORCE RTX",
+    "price": 641,
+    "description": "Zotac GEFORCE RTX 4070 Super Twin Edge 12GB",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE",
+    "image": ["https://m.media-amazon.com/images/I/81YGmB5xPBL._AC_SX425_.jpg",
+              "https://m.media-amazon.com/images/I/81YGmB5xPBL._AC_SX425_.jpg",
+              "https://m.media-amazon.com/images/I/61EME69MY-L._AC_SX355_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 110
+    }
+  },
+  {
+    "id": 53,
+    "title": "MSI B760",
+    "price": 164,
+    "description": "MSI B760 B760 GAMING PLUS WIFI Carte Mère, ATX - Pour Processeurs Intel Core 14e, 13e & 12e Génération, LGA 1700 - DDR5 Memory Boost 6800+MHz/OC, Slots PCIe 4.0 x16, Slots M.2 Gen4, Wi-Fi 6E",
+    "category": "nvidia graphics card",
+    "childCategory": "msi",
+    "image": ["https://m.media-amazon.com/images/I/811+Jj0m5eL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/81vBFzIXKYL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/81ysorSOUIL._AC_SY355_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 160
+    }
+  },
+  {
+    "id": 54,
+    "title": "ASUS TUF GAMING",
+    "price": 476,
+    "description": "ASUS TUF GAMING NVIDIA GeForce RTX 4060 Ti – Carte graphique gaming (8GB GDDR6X, PCIe 4.0, DLSS 3, HDMI 2.1a, Display Port 1.4a, ventilateurs axiaux)",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE",
+    "image": ["https://m.media-amazon.com/images/I/71pixdzfjjL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/61vHJbb3SjL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/61+smU+9VTL._AC_SY355_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 290
+    }
+  },
+  {
+    "id": 55,
+    "title": "PNY Carte Graphique",
+    "price": 523,
+    "description": "PNY Carte Graphique GEFORCE RTX™ 4060 Ti 8GB XLR8 Gaming Verto Triple Fan Edition DLSS 3",
+    "category": "nvidia graphics card",
+    "childCategory": "GIGABYTE",
+    "image": ["https://m.media-amazon.com/images/I/61lWvDoH+DL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/51LziKqKU9L._AC_SL1000_.jpg",
+              "https://m.media-amazon.com/images/I/51n-m9s+iZL._AC_SY355_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 390
+    }
+  },
+  {
+    "id": 56,
+    "title": "ONLY Onldolly",
+    "price": 30,
+    "description": "ONLY Onldolly Short Puffer Jacket OTW Noos Veste Femme",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/71JKOqHQCDL._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/71yc99u-kuL._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/71WQ7Njkc7L._AC_SX342_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 170
+    }
+  },
+  {
+    "id": 57,
+    "title": "Calvin Klein Jeans ",
+    "price": 75,
+    "description": "Calvin Klein Jeans Pantalons Femme",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/619ROn71s-L._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/61tsbInwE7L._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/61+3I4IzlgL._AC_SY445_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 660
+    }
+  },
+  {
+    "id": 58,
+    "title": " Blouse Femme",
+    "price": 25,
+    "description": "VERO MODA Vmbumpy L/S T-Shirt New WVN GA Noos Blouse Femme",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/71sc3Cj8jgL._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/71NfJRcWRhL._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/51KdsPoytGL._AC_SY445_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 610
+    }
+  },
+  {
+    "id": 59,
+    "title": "Lee Jane ",
+    "price": 89,
+    "description": "Lee Jane Jeans Femme",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/61XttM1KWeL._AC_SX385_.jpg",
+              "https://m.media-amazon.com/images/I/61gtGbNs-6L._AC_SX385_.jpg",
+              "https://m.media-amazon.com/images/I/81d4HH1GOjL._AC_SX385_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 360
+    }
+  },
+  {
+    "id": 60,
+    "title": "Tee Shirt Femme ",
+    "price": 21,
+    "description": "Tee Shirt Femme T Shirt Ample À Manches Trois Quarts pour Femmes Couleur Unie Col Rond Manches Pagode Haut Femme",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/61kyuocJxyL._AC_SX385_.jpg",
+              "https://m.media-amazon.com/images/I/61YgDKziD6L._AC_SX385_.jpg",
+              "https://m.media-amazon.com/images/I/81WJ3r41IyL._AC_SX385_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 140
+    }
+  },
+  {
+    "id": 61,
+    "title": "Urban Classics Chemise ",
+    "price": 39,
+    "description": "Urban Classics Chemise À Carreaux pour Femme",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/81Zx2U2l0uL._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/81YpGF1bhNL._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/81e5ZnIo+JL._AC_SX342_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 440
+    }
+  },
+  {
+    "id": 62,
+    "title": " Chemise Femme",
+    "price":31 ,
+    "description": "Brandit Amy Flanell Shirt Girls Chemise Femme",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/81HtT12Qr3L._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/81hWScfHOVL._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/91ZMrELbupL._AC_SY445_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 220
+    }
+  },
+  {
+    "id": 63,
+    "title": "Gaming Mouse",
+    "price": 37,
+    "description": "Logitech G502 HERO High Performance Wired Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, On-Board Memory, PC / Mac",
+    "category": "Electronics",
+    "childCategory": "Gaming accessories",
+    "image": ["https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/71sgEIlSvfL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/61vThyaOrHL._AC_SY355_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 185
+    }
+  },
+  {
+    "id": 64,
+    "title": "Wireless Gaming Mouse",
+    "price": 10,
+    "description": "Wireless Gaming Mouse, Rechargeable Wireless Computer Mouse with Type-C Fast Charging, Ergonomic Mouse with 3 Adjustable DPI, 6 Silent Buttons, LED Light, Long Battery Life for Laptop, PC, Mac",
+    "category": "Electronics",
+    "childCategory": "Gaming accessories",
+    "image": ["https://m.media-amazon.com/images/I/71ncnCl8x3L._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/81fFM1D28vL._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/71BpxQReJqL._AC_SY355_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 186
+    }
+  },
+  {
+    "id": 65,
+    "title": "Glorious Model O Wireless Gaming Mouse",
+    "price": 73,
+    "description": "Glorious Model O Wireless Gaming Mouse - Superlight, 69g Honeycomb Design, RGB, Ambidextrous, Lag Free 2.4GHz Wireless, Up to 71 Hours Battery - Matte White",
+    "category": "Electronics",
+    "childCategory": "Gaming accessories",
+    "image": ["https://m.media-amazon.com/images/I/71gL7gGh3iL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+              "https://m.media-amazon.com/images/I/51-0mYzCdNL._AC_SX355_.jpg",
+              "https://m.media-amazon.com/images/I/51TisABdERL._AC_SX355_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 187
+    }
+  },
+  {
+    "id": 66,
+    "title": "Razer Basilisk V3",
+    "price": 49,
+    "description": "Razer Basilisk V3 Customizable Ergonomic Gaming Mouse: Fastest Gaming Mouse Switch - Chroma RGB Lighting - 26K DPI Optical Sensor - 11 Programmable Buttons - HyperScroll Tilt Wheel - Classic Black",
+    "category": "Electronics",
+    "childCategory": "Gaming accessories",
+    "image": ["https://m.media-amazon.com/images/I/61AcT0ZuO3L._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/71ogW8jLA+L._AC_SY355_.jpg",
+              "https://m.media-amazon.com/images/I/61LmB1Vu1cL._AC_SY355_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 188
+    }
+  },
+  {
+    "id": 67,
+    "title": "Maxi Dress",
+    "price": 27,
+    "description": "Amazon Essentials Women's Tank Waisted Maxi Dress (Available in Plus Size)",
+    "category": "clothing",
+    "childCategory": "women",
+    "image": ["https://m.media-amazon.com/images/I/61R0h6PLmgL._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/61HVCMzXAdL._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/81XkutOG1BL._AC_SX342_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 189
+    }
+  },
+  {
+    "id": 68,
+    "title": "Hanes Men's Hoodie",
+    "price": 13,
+    "description": "Hanes Men's Hoodie, EcoSmart Fleece Hoodie, Hooded Sweatshirt for Men",
+    "category": "clothing",
+    "childCategory": "men",
+    "image": ["https://m.media-amazon.com/images/I/61JckjKagSL._AC_SX385_.jpg",
+              "https://m.media-amazon.com/images/I/71qJhfMQDaL._AC_SX385_.jpg",
+              "https://m.media-amazon.com/images/I/71svh034VHL._AC_SX385_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 190
+    }
+  },
+  {
+    "id": 69,
+    "title": "Shirts for Winter",
+    "price": 36,
+    "description": "G Gradual Sherpa Lined Sweatshirts for Men Fleece Crewneck Sweatshirt Pullover Warm Shirts for Winter",
+    "category": "clothing",
+    "childCategory": "men",
+    "image": ["https://m.media-amazon.com/images/I/71y0fZTzFML._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/41M76XFzwlL._AC_SX342_.jpg",
+              "https://m.media-amazon.com/images/I/410aXwtrhUL._AC_SX342_.jpg"],
+    "rating": {
+      "rate": 4,
+      "count": 191
+    }
+  },
+  {
+    "id": 70,
+    "title": "Sweatpants",
+    "price": 12,
+    "description": "Fruit of the Loom Eversoft Fleece Elastic Bottom Sweatpants with Pockets, Relaxed Fit, Moisture Wicking, Breathable",
+    "category": "clothing",
+    "childCategory": "men",
+    "image": ["https://m.media-amazon.com/images/I/61Y8pQkviDL._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/6112AP+pyJL._AC_SY445_.jpg",
+              "https://m.media-amazon.com/images/I/81OT03XeDEL._AC_SY445_.jpg"],
+    "rating": {
+      "rate": 5,
+      "count": 192
+    }
   }
   
 ]}
