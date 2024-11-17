@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Navbar</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billing Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <nav class="w-full border-b border-gray-200">
@@ -47,7 +45,7 @@
               <!-- Desktop Navigation Links -->
               <div class="space-x-6 flex">
                 <a href="../index.html" class="text-gray-500 hover:text-red-500">Home</a>
-                <a href="cart.html" class="text-red-500 hover:text-red-500 font-semibold">Bag</a>
+                <a href="cart.html" class="text-gray-500 hover:text-red-500">Bag</a>
                 <a href="#" class="text-gray-500 hover:text-red-500">Sign Up</a>
                 <a href="Shop.html" class="text-gray-500 hover:text-red-500">Shop</a>
                 <a href="about.html" class="text-gray-500 hover:text-red-500 ">About Us</a>
@@ -78,7 +76,7 @@
         <div id="mobile-menu" class="hidden md:hidden">
           <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="../index.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-            <a href="cart.html" class="text-red-500 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Bag</a>
+            <a href="cart.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Bag</a>
             <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Sign Up</a>
             <a href="Shop.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Shop</a>
             <a href="contact.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
@@ -115,52 +113,128 @@
       </div>
   
 
-      <main class="mb-16">
-        <section class="flex justify-center">
+<main class="flex justify-center mb-16">
 
-            <div class="max-w-[1177px] w-full">
+    <div class="container grid grid-cols-1 mt-10 md:grid-cols-2 items-center justify-items-center ">
+      <!-- Billing Form -->
+      <form class="bg-white  p-6 max-w-[500px]">
+        <h1 class="text-2xl font-xl mb-4">Billing Details</h1>
+        <!-- First Name -->
+        <div class="mb-4">
+          <label class="block text-gray-400 text-sm font-bold mb-2" for="first-name">First Name*</label>
+          <input class="w-full border rounded px-3 py-2 text-gray-700 focus:outline-none bg-gray-100 focus:ring-2 focus:ring-blue-500" id="first-name" type="text">
+        </div>
+        <!-- Company Name -->
+        <div class="mb-4">
+          <label class="block text-gray-400 text-sm  mb-2" for="company-name">Company Name</label>
+          <input class="w-full border rounded px-3 py-2 text-gray-700 focus:outline-none bg-gray-100 focus:ring-2 focus:ring-blue-500" id="company-name" type="text" >
+        </div>
+        <!-- Street Address -->
+        <div class="mb-4">
+          <label class="block text-gray-400 text-sm  mb-2" for="street-address">Street Address*</label>
+          <input class="w-full border rounded px-3 py-2 text-gray-700 focus:outline-none bg-gray-100 focus:ring-2 focus:ring-blue-500" id="street-address" type="text">
+        </div>
+        <!-- Apartment -->
+        <div class="mb-4">
+          <label class="block text-gray-400 text-sm  mb-2" for="apartment">Apartment, floor, etc. (optional)</label>
+          <input class="w-full border rounded px-3 py-2 text-gray-700 focus:outline-none bg-gray-100 focus:ring-2 focus:ring-blue-500" id="apartment" type="text">
+        </div>
+        <!-- Town/City -->
+        <div class="mb-4">
+          <label class="block text-gray-400 text-sm  mb-2" for="city">Town/City*</label>
+          <input class="w-full border rounded px-3 py-2 text-gray-700 focus:outline-none bg-gray-100 focus:ring-2 focus:ring-blue-500" id="city" type="text">
+        </div>
+        <!-- Phone Number -->
+        <div class="mb-4">
+          <label class="block text-gray-400 text-sm  mb-2" for="phone">Phone Number*</label>
+          <input class="w-full border rounded px-3 py-2 text-gray-700 focus:outline-none bg-gray-100 focus:ring-2 focus:ring-blue-500" id="phone" type="tel" >
+        </div>
+        <!-- Email Address -->
+        <div class="mb-4">
+          <label class="block text-gray-400 text-sm  mb-2" for="email">Email Address*</label>
+          <input class="w-full border rounded px-3 py-2 text-gray-700 focus:outline-none bg-gray-100 focus:ring-2 focus:ring-blue-500" id="email" type="email">
+        </div>
+        <!-- Save Info Checkbox -->
+        <div class="flex items-center me-4">
+          <input checked id="red-checkbox" type="checkbox" value="" class="w-4 h-4 text-red-600 bg-gray-100 border-gray-300 rounded">
+          <label for="red-checkbox" class="ms-2 text-sm font-4xl">Save this information for faster check-out next time</label>
+      </div>
+      </form>
+  
+      <section>
+          
+          <!-- Coupon Code -->
+           <div class="flex justify-center">
     
-                <div id="container-pro" class="mt-16 p-4 flex flex-col gap-5">
-                  <div class=" h-10 flex justify-between items-center shadow-sm md:px-8 px-2   ">
-                    <span>Product</span> <span>Price</span> <span>Quantity</span> <span>Subtotal</span>
-                  </div>
+               <div class="flex items-center mb-6 max-w-[400px]">
+                 <input class="flex-1 border rounded-l px-3 py-2 text-gray-700 focus:outline-non focus:ring-2 focus:ring-blue-500" type="text" placeholder="Coupon Code">
+                 <button class="bg-[#DB4444] text-gray-50 px-4 py-2 rounded-r hover:bg-red-700">Apply Coupon</button>
+               </div>
+           </div>
+        <!-- Order Summary -->
+        <div class=" flex justify-center">
+            
+            <div class="justify-center max-w-[527px] p-6 w-full ">
+                <div id="container-pro" class="space-y-4">
+                <!-- Products will be dynamically added here -->
                 </div>
-                <div>
-
-                    <button class="border h-10 w-36 md:w-[212px] m-4"><a href="Shop.html"> Return To Shop</a></button>
+                <div class="flex justify-between  pt-4 mb-4 pt-4">
+                <p class="text-gray-700 ">Subtotal:</p>
+                <p id="Subtotal" class="">$0</p>
                 </div>
-            </div>
-        </section>
-
-        <section class="flex justify-center  ">
-
-            <section class=" flex justify-center items-center gap-10 mt-4 max-w-[1170px] justify-between flex-col md:flex-row md:items-start" >
-    
-              <div class="flex justify-center">
-    
-                <div class="flex items-center mb-6 max-w-[400px]">
-                  <input class="flex-1 border rounded-l px-3 py-2 text-gray-700 focus:outline-non focus:ring-2 focus:ring-blue-500" type="text" placeholder="Coupon Code">
-                  <button class="bg-[#DB4444] text-gray-50 px-4 py-2 rounded-r hover:bg-red-700">Apply Coupon</button>
+                <div class="flex justify-between border-t mb-4 pt-4">
+                <p class="text-gray-700">Shipping:</p>
+                <p class="">Free</p>
                 </div>
-            </div>
+                <div class="flex justify-between border-t pt-4 mb-4">
+                <p class="text- ">Total:</p>
+                <p id="Total" class="text-lg ">$0</p>
+                </div>
     
-    
-                <div class="flex flex-col justify-center items-center border-2 w-[322px] gap-4 pt-4 pb-4 lg:w-[470px] lg:w-[470px]">
-    
-                    <div class="w-[90%">
-                        <h2 class="bold">Cart Total</h2>
+                <div class="mb-4">
+                <label class=" flex items-center justify-between">
+                    <div>
+                        <input type="radio" name="payment" class="form-radio h-5 w-5 text-blue-600" checked>
+                        <span class="ml-2 text-gray-700 ">Bank </span>
                     </div>
-                    <div class="h-10 border-b border-black/20 flex items-center justify-between w-[90%]">Subtotal: <span id="Subtotal"></span></div>
-                    <div class="h-10 border-b border-black/20 flex items-center justify-between w-[90%]">Shipping: <span id="Shipping">free</span></div>
-                    <div class="h-10 border-b border-black/20 flex items-center justify-between w-[90%]">Total: <span id="Total"></span></div>
-                    <div class="bg-[#DB4444] h-[40px] md:h-[50px] rounded w-[187px] text-gray-50 flex justify-center items-center md:w-[260px]">
-                        <a href="" class="">Procees to checkout</a>
-                    </div>
-    
+                    <img src="../assets/imgs/visa.png" alt="">
+                </label>
                 </div>
-            </section>
-        </section>
-      </main>
+                <div class="mb-6">
+                <label class="inline-flex items-center">
+                    <input type="radio" name="payment" class="form-radio h-5 w-5 text-blue-600">
+                    <span class="ml-2 text-gray-700">Cash on delivery</span>
+                </label>
+                </div>
+            
+                <!-- Place Order Button -->
+                <button id="btn" class=" bg-[#DB4444] text-white py-3 rounded hover:bg-red-700 w-[190px] ">Place Order</button>
+            </div>  
+        </div>
+      </section>
+    </div>
+  
+  
+    <!-- Success Modal -->
+  <div id="successModal" class="hidden fixed inset-0 bg-gray-500 bg-opacity-75 flex justify-center items-center z-50">
+      <div class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full text-center">
+        <h3 class="text-xl font-semibold text-green-600">Order Placed Successfully!</h3>
+        <p class="text-gray-700 mt-2">Your cart has been cleared.</p>
+        <button id="closeSuccessModal" class="mt-4 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Close</button>
+      </div>
+    </div>
+    
+    <!-- Failure Modal -->
+    <div id="failureModal" class="hidden fixed inset-0 bg-gray-500 bg-opacity-75 flex justify-center items-center z-50">
+      <div class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full text-center">
+        <h3 class="text-xl font-semibold text-red-600">Your Cart is Empty</h3>
+        <p class="text-gray-700 mt-2">Please add products to your cart before placing the order.</p>
+        <button id="closeFailureModal" class="mt-4 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Go to shop</button>
+      </div>
+    </div>
+    
+</main>
+
 
 
 <footer class="w-full bg-black text-white py-10 hidden md:block px-6">
@@ -205,9 +279,9 @@
       <div class="px-4">
         <h3 class="font-semibold text-lg mb-2 font-bold">Quick Link</h3>
         <ul class="text-sm space-y-1 ">
-          <li class="hover:text-red-500"><a href="#">Privacy Policy</a></li>
-          <li class="hover:text-red-500"><a href="#">Terms Of Use</a></li>
-          <li class="hover:text-red-500"><a href="#">FAQ</a></li>
+          <li class="hover:text-red-500"><a href="">Privacy Policy</a></li>
+          <li class="hover:text-red-500"><a href="">Terms Of Use</a></li>
+          <li class="hover:text-red-500"><a href="">FAQ</a></li>
           <li class="hover:text-red-500"><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -238,8 +312,9 @@
       © Copyright Rimel 2022. All rights reserved
     </div>
   </footer>
-
+  <script src="../js/checkout.js"></script>
+  
 <script src="../js/menu.js"></script>
-<script src="../js/cart.js"></script>
 </body>
+
 </html>

@@ -9,7 +9,7 @@ let total = 0;
 
 cartProducts.forEach((pro, index) => {
     let prodev = document.createElement("div");
-    prodev.className = "h-16 flex justify-around items-center shadow-sm relative";
+    prodev.className = "h-16 flex justify-between px-4 md:px-8 items-center shadow-sm relative";
     prodev.dataset.index = index; 
     
     prodev.innerHTML = `
@@ -17,7 +17,7 @@ cartProducts.forEach((pro, index) => {
         <span>${pro.price}</span> 
         <span class="border w-10 h-6 text-center">${pro.quantity}</span> 
         <span>${pro.price * pro.quantity}</span>
-        <span class=" top-1 right-0 absolute"><i class="fas fa-trash cursor-pointer text-red-500 delete-btn"></i></span>
+        <i class="fas fa-trash cursor-pointer text-red-500 delete-btn right-0 absolute "></i>
     `;
     
     subtotal += pro.price * pro.quantity;

@@ -3,50 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script type= "module" src="index-js.js" defer ></script>
+    <title>wishlist</title>
     <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    <style>
-        header
-        {
-            background-image: url(assets/imgs/background-1.png);
-            height:640px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        #background-2
-        {
-            background-image: url(assets/imgs/background-2.png);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        #discount-background
-        {
-            background-image: url(assets/imgs/discount.png);
-            background-position: center;
-            background-size: cover;
-            height: 100%;
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 280px;
-            width: 94%;
-        }
-    </style>
 </head>
-<body class="overflow-x-hidden w-full">
+<body>
   <nav class="w-full border-b border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
@@ -83,28 +45,28 @@
       
           <!-- Desktop Navigation Links -->
           <div class="space-x-6 flex">
-            <a href="index.html" class="text-red-500 hover:text-red-500 font-semibold">Home</a>
-            <a href="pages/cart.html" class="text-gray-500 hover:text-red-500">Bag</a>
+            <a href="../index.html" class="text-gray-500 hover:text-red-500">Home</a>
+            <a href="cart.html" class="text-gray-500 hover:text-red-500">Bag</a>
             <a href="#" class="text-gray-500 hover:text-red-500">Sign Up</a>
-            <a href="pages/Shop.html" class="text-gray-500 hover:text-red-500">Shop</a>
-            <a href="pages/about.html" class="text-gray-500 hover:text-red-500 ">About Us</a>
-            <a href="pages/contact.html" class="text-gray-500 hover:text-red-500">Contact Us</a>
+            <a href="Shop.html" class="text-gray-500 hover:text-red-500">Shop</a>
+            <a href="about.html" class="text-gray-500 hover:text-red-500 ">About Us</a>
+            <a href="contact.html" class="text-gray-500 hover:text-red-500">Contact Us</a>
           </div>
         </div>
 
         <!-- Desktop Icons -->
         <div class="hidden md:flex items-center space-x-4">
-          <a href="pages/wishlist.html" class="text-gray-500 hover:text-gray-900">
+          <a href="wishlist.html" class="text-gray-500 hover:text-gray-900">
             <img src="../assets/icon/heart.png" class="w-6 h-6" alt="">
           </a>
-          <a href="pages/404.html" class="text-gray-500 hover:text-gray-900">
+          <a href="404.html" class="text-gray-500 hover:text-gray-900">
             <img src="../assets/icon/email.png" class="w-6 h-6" alt="">
           </a>
-          <a href="pages/cart.html" class="text-gray-500 hover:text-gray-900">
+          <a href="cart.html" class="text-gray-500 hover:text-gray-900">
             <img src="../assets/icon/shopping-cart (1).png" class="w-6 h-6" alt="">
 
           </a>
-          <a href="pages/account.html" class="text-gray-500 hover:text-gray-900">
+          <a href="account.html" class="text-gray-500 hover:text-gray-900">
             <img src="../assets/icon/user (1).png" class="w-6 h-6" alt="">
           </a>
         </div>
@@ -114,12 +76,12 @@
     <!-- Mobile Menu Links -->
     <div id="mobile-menu" class="hidden md:hidden">
       <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        <a href="index.html" class="text-red-500 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-        <a href="pages/cart.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Bag</a>
+        <a href="../index.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+        <a href="cart.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Bag</a>
         <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Sign Up</a>
-        <a href="pages/Shop.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base">Shop</a>
-        <a href="pages/contact.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
-        <a href="pages/about.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">About Us</a>
+        <a href="Shop.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Shop</a>
+        <a href="contact.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
+        <a href="about.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">About Us</a>
       </div>
     </div>
   </nav>
@@ -150,144 +112,81 @@
     </div>
   
   </div>
+  
 
-    <header class="max-[500px]:h-[250px] mt-10">
-        <div class="text-white text-5xl mb-2 max-[500px]:text-2xl max-[500px]:mt-4">The Holiday Gift Guide</div>
-        <div class="text-white text-3xl h-16 mt-8 max-[500px]:text-lg max-[500px]:h-6 max-[500px]:mt-2">You won’t have to check our site</div>
-        <div class="text-white text-3xl h-16 max-[500px]:text-lg max-[500px]:h-6">twice to find something for everyone.</div>
-        <button class="text-black bg-white w-[330px] h-[80px] mt-10 max-[500px]:w-[135px] max-[500px]:h-[40px] max-[500px]:mt-6 ">SHOP NOW</button>
-    </header>
-    <main>
+      <main class="w-full h-auto py-6 mb-8">
+        <div class="flex justify-end w-11/12 my-20px">
+          <input type="text" id="search" placeholder="Search products..." class="w-64 bg-[#F6F6F6]">
+          <img src="../assets/imgs/Frame 747.png" alt="">
+      </div>
 
-
-        <section class="flex justify-center flex-col items-center">
-            <h1 class="text-[#DB4444] text-4xl p-4 mt-28 mb-8 max-[500px]:mt-10 ">Shop by Category</h1>
-            <p class=" text-2xl max-[660px]:text-[15px] max-[660px]:h-6 h-10">Explore our range across Clothing, Electronics, and Fu.</p>
-            <p class=" text-2xl max-[660px]:text-[15px] max-[660px]:h-6 h-10">Find stylish outfits, the latest tech, and Quality </p>
-            <p class=" text-2xl max-[660px]:text-[15px] max-[660px]:h-6 h-10">furniture to elevate your lifestyle.</p>
-            <div id="section1-images" class="flex  flex-wrap justify-center items-center gap-10 pt-16">
-                <div id="nvidia-graphics-card" class=" flex flex-col items-center gap-2 underline">
-                    <img class=" max-w-[20rem] max-h-[20rem]  max-[752px]:max-w-[17rem] max-[602px]:max-w-[13rem] max-[472px]:max-w-[8.5rem] max-[752px]:max-h-[17rem] max-[602px]:max-h-[13rem] max-[472px]:max-h-[8.5rem] "  src="assets/imgs/graphic card.png" alt="">
-                    <p>Graphic Cards</p>
-                </div>
-                <div id="clothing" class=" flex flex-col items-center gap-2 underline ">
-                    <img class=" max-w-[20rem] max-h-[20rem]  max-[752px]:max-w-[17rem] max-[602px]:max-w-[13rem] max-[472px]:max-w-[8.5rem] max-[752px]:max-h-[17rem] max-[602px]:max-h-[13rem] max-[472px]:max-h-[8.5rem]"  src="assets/imgs/jacket.png" alt="">
-                    <p>Clothing</p>
-                </div>
-                <div id="electronics" class=" flex flex-col items-center gap-2 underline">
-                    <img class=" max-w-[20rem] max-h-[20rem]  max-[752px]:max-w-[17rem] max-[602px]:max-w-[13rem] max-[472px]:max-w-[8.5rem] max-[752px]:max-h-[17rem] max-[602px]:max-h-[13rem] max-[472px]:max-h-[8.5rem]" src="assets/imgs/phone.png" alt="">
-                    <p>Electronics</p>
-                </div>
-                <div  id="jewelery" class=" flex flex-col items-center gap-2 underline">
-                    <img class=" max-w-[20rem] max-h-[20rem]  max-[752px]:max-w-[17rem] max-[602px]:max-w-[13rem] max-[472px]:max-w-[8.5rem] max-[752px]:max-h-[17rem] max-[602px]:max-h-[13rem] max-[472px]:max-h-[8.5rem]" class="" src="https://m.media-amazon.com/images/I/81qyWFH1lWL._AC_SY675_.jpg" alt="">
-                    <p>Jewelery</p>
-                </div>
-            </div>
+      <div class="flex justify-center justify-between p-10 ">
+        <h3 class="font-bold">Wishlist (<span class="conter-wishlist"></span>)</h3>
+        <button class="text-white bg-red-500 hover:bg-red-800 w-[12em] h-[3em]">Move All To Bag</button>
+      </div>
+        <div></div>
+        <section id="productDiv" class="flex flex-wrap justify-center w-[1170px] justify-center gap-6 w-full max-[600px]:gap-[11px] ">
+            <!-- Product cards will be dynamically inserted here -->
         </section>
 
+        <h3 class="font-bold p-8 ml-11">Just For You</h3>
+        <section id="productDiv" class="flex flex-wrap justify-center gap-6 w-full max-[600px]:gap-[11px] ">
+        
+        <div id="first-pro" class="flex flex-col items-center justify-between bg-[#F5F5F5] p-4 rounded-lg shadow-lg w-[270px] max-[600px]:w-[200px] h-[322px]" id="product-${product.id}">
+          <div class="flex justify-center bg-[#F5F5F5] h-[12rem] pt-10">
+              <img class="h-28 w-28 mix-blend-multiply" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="${product.title} image">
+          </div>
+          <h2 class="text-base text-black font-medium h-8 overflow-hidden p-2 py-2">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
+          <p class="text-bold text-[#DB4444] p-2">109.95$</p>
+          <div class="text-sm text-yellow-500 p-2">
+            <i class="fa-solid fa-star text-yellow-500"></i>
+            <i class="fa-solid fa-star text-yellow-500"></i>
+            <i class="fa-solid fa-star-half-stroke text-yellow-500"></i>
+            <i class="fa-regular fa-star text-gray-300"></i>
+              <span class="text-gray-400">(120)</span>
+          </div>
+      </div>
 
-        <section class="flex flex-col  w-full items-center " >
-            <div class="w-full p-10  max-[600px]:p-4 pr-0">
-            <div class="flex  pb-4 justify-between ">
-            <h2 class="text-[#DB4444] text-3xl max-[600px]:text-2xl">Most Popular Products</h2>
-            </div>
-            <div >
-            <p class="text-xl max-[500px]:text-xs">Discover our bestsellers in clothing, electronics, and furniture,</p>
-            <p class="text-xl max-[500px]:text-xs">featuring top styles, innovative tech, and quality designs that customers love.</p>
-            </div >
-            <div class="text-end pr-32 max-[500px]:pr-10">
 
-                <button class="bg-black text-white w-[160px] h-[40px] rounded-[40px] max-[500px]:text-xs max-[500px]:w-[100px] "><a href="pages/Shop.html">View All</a> </button>
-            </div>
+      <div id="third-pro" class="flex flex-col items-center justify-between bg-[#F5F5F5] p-4 rounded-lg shadow-lg w-[270px] max-[600px]:w-[200px] h-[322px]" id="product-${product.id}">
+        <div class="flex justify-center bg-[#F5F5F5] h-[12rem] pt-10">
+            <img class="h-28 w-28 mix-blend-multiply" src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="${product.title} image">
         </div>
-            <div id="imagesContainer" class="flex items-center justify-center flex-wrap gap-8 max-[452px]:gap-2">
-            </div>
-        </section>
-
-        <section class=" flex justify-center items-center">
-            <div id="background-2" class="flex justify-center items-center flex-col gap-7 h-[387px] w-[1300px]">
-                <div>
-                <p class="text-white text-xl max-[500px]:p- max-[500px]:pl-8">We’re on a Mission To Clean Up the Industry</p>
-                <p class="text-white max-[500px]:text-sm p-10 max-[500px]:p-2 max-[500px]:pl-14">Read about our progress in our latest Impact Report</p>
-            </div>
-                <button class="text-black bg-white w-[228px] h-[70px]">LEARN MORE</button>
-            </div>
-        </section>
-
-        <section class="flex flex-col gap-6" >
-            <div class="w-full p-10 max-[600px]:p-4 pr-0">
-                <div class="flex pb-4 justify-between">
-                    <h2 class="text-[#DB4444] text-3xl max-[600px]:text-2xl">Featured Products</h2>
-                </div>
-                <div>
-                    <p class="text-xl max-[500px]:text-xs">Discover our handpicked selection of must-have items,</p>
-                    <p class="text-xl max-[500px]:text-xs">featured with the latest trends and timeless classics that elevate your style.</p>
-                </div>
-                <div class="text-end pr-32 max-[500px]:pr-10">
-                    <button class="bg-black text-white w-[160px] h-[40px] rounded-[40px] max-[500px]:text-xs max-[500px]:w-[100px]"><a href="pages/Shop.html">View All</a></button>
-                </div>
-            </div>
-        </section>
-        <div id="imagesContainer2" class="flex items-center justify-center flex-wrap gap-10 max-[452px]:gap-2">
+        <h2 class="text-base text-black font-medium h-8 overflow-hidden p-2 py-2">Mens Casual Premium Slim Fit T-Shirts</h2>
+        <p class="text-bold text-[#DB4444] p-2">201$</p>
+        <div class="text-sm text-yellow-500 p-2">
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+            <span class="text-gray-400">(120)</span>
         </div>
+    </div>
 
 
-        <section class=" flex justify-center gap-10 flex-wrap  ">
-            <div class=" flex flex-col h-[630px] max-[472px]:h-[540px] justify-between items-center">
-                <p class="text-2xl">You’ve Made Your List</p>
-                <div class="">
-                    <img class="w-[400px] h-[500px] max-[472px]:w-[300px] max-[472px]:h-[400px]" src="assets/imgs/made-list.png" alt="">
-                </div>
-                <p class="text-xs" >We’ve got gifts you won’t have to check twice</p>
-                <p class="underline">SEE MORE</p>
-            </div>
-            <div class=" flex flex-col h-[630px] max-[472px]:h-[540px] justify-between items-center">
-                
-            <p class="text-2xl">Cleaner Fashion</p>
-            <div class=" flex justify-center">
-                <img class=" w-[400px] h-[500px] min-w-[400px] max-[472px]:min-w-[300px] max-[472px]:w-[300px] max-[472px]:h-[400px]" src="assets/imgs/cleaner-fashin.png" alt="">
-            </div>
-            <p class="text-xs ">See the sustainability efforts behind each of our products </p>
-            <p class="underline">SEE MORE</p>
-            </div>
-    
-        </section>
 
-        <section class=" flex justify-center">
-            <div id="discount-background" class="flex flex-col items-center justify-center gap-10 w-full pb-16 mt-16 ">
-                <p class="text-white text-4xl max-[600px]:text-2xl">-25% of Your First Order</p>
-                <button class="text-black bg-white w-[124px] h-[40px] ">READ MORE</button>
-            </div>
-        </section>
 
-        <section class="flex flex-col justify-center items-center gap-14 mt-16 mb-20 ">
-            <div class="flex gap-7 flex-col">
-            <h3 class="text-[#DB4444] text-3xl text-center ">More To Explore</h3>
-            <div class="flex justify-center flex-col ">
-            <p class="text-center max-[500px]:text-sm  ">Dive into our full collection, from trendy outfits to timeless,</p>
-            <p class="text-center max-[500px]:text-sm  ">and discover new arrivals, exclusive deals,</p>
-            <p class="text-center max-[500px]:text-sm  ">and more to elevate your wardrobe.</p>
-            </div>
-            </div>
-            <div class="flex justify-center gap-7 flex-wrap">
-                <div class="flex flex-col justify-between items-center h-[190px]">
-                    <img class="w-[391px] h-[232px] max-[500px]:h-[142px] max-[500px]:w-[287px]" src="assets/imgs/ourproducts-img.png" alt="">
-                    <p>Our Products</p>
-                </div>
-                <div class="flex flex-col justify-between items-center h-[190px]">
-                    <img class="w-[391px] h-[232px] max-[500px]:h-[142px] max-[500px]:w-[287px]"  src="assets/imgs/ourstores-image.png" alt="">
-                    <p>Our Stores</p>
-                </div>
-                <div class="flex flex-col justify-between items-center h-[190px]">
-                    <img class="w-[391px] h-[232px] max-[500px]:h-[142px] max-[500px]:w-[287px]"  src="assets/imgs/carreer-img.png" alt="">
-                    <p>Career</p>
-                </div>
- 
-
-            </div>
-        </section>
+  <div id="second-pro" class="flex flex-col items-center justify-between bg-[#F5F5F5] p-4 rounded-lg shadow-lg w-[270px] max-[600px]:w-[200px] h-[322px]" id="product-${product.id}">
+    <div class="flex justify-center bg-[#F5F5F5] h-[12rem] pt-10">
+        <img class="h-28 w-28 mix-blend-multiply" src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" alt="${product.title} image">
+    </div>
+    <h2 class="text-base text-black font-medium h-8 overflow-hidden p-2 py-2">Mens Casual Premium Slim Fit T-Shirts</h2>
+    <p class="text-bold text-[#DB4444] p-2">103$</p>
+    <div class="text-sm text-yellow-500 p-2">
+      <i class="fa-solid fa-star text-yellow-500"></i>
+      <i class="fa-solid fa-star text-yellow-500"></i>
+      <i class="fa-solid fa-star text-yellow-500"></i>
+      
+      <i class="fa-regular fa-star text-gray-300"></i>
+        <span class="text-gray-400">(208)</span>
+    </div>
+</div>
+    </section>
+        
     </main>
- 
+    
+
+
     <footer class="w-full bg-black text-white py-10 hidden md:block px-6">
       <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-4 text-center md:text-left">
         
@@ -318,11 +217,11 @@
         <div class="px-4">
           <h3 class="font-semibold text-lg mb-2 font-bold">Account</h3>
           <ul class="text-sm space-y-1 ">
-            <li class="hover:text-red-500"><a href="pages/account.html">My Account</a></li>
+            <li class="hover:text-red-500"><a href="account.html">My Account</a></li>
             <li class="hover:text-red-500"> <a href="#"> Login / Register</a></li>
-            <li class="hover:text-red-500"> <a href="pages/cart.html">Cart</a> </li>
-            <li class="hover:text-red-500"><a href="pages/about.html">About us</a></li>
-            <li class="hover:text-red-500"><a href="pages/Shop.html">Shop</a></li>
+            <li class="hover:text-red-500"> <a href="cart.html">Cart</a> </li>
+            <li class="hover:text-red-500"><a href="about.html">About us</a></li>
+            <li class="hover:text-red-500"><a href="Shop.html">Shop</a></li>
           </ul>
         </div>
     
@@ -333,7 +232,7 @@
             <li class="hover:text-red-500"><a href="#">Privacy Policy</a></li>
             <li class="hover:text-red-500"><a href="#">Terms Of Use</a></li>
             <li class="hover:text-red-500"><a href="#">FAQ</a></li>
-            <li class="hover:text-red-500"><a href="pages/contact.html">Contact</a></li>
+            <li class="hover:text-red-500"><a href="contact.html">Contact</a></li>
           </ul>
         </div>
     
@@ -365,5 +264,6 @@
     </footer>
     
     <script src="../js/menu.js"></script>
+    <script type="module" src="../js/wishlist.js"></script>
     </body>
     </html>
