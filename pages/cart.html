@@ -6,6 +6,7 @@
     <title>Responsive Navbar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
@@ -49,24 +50,24 @@
                 <a href="#" class="text-red-500 hover:text-red-500">Bag</a>
                 <a href="#" class="text-gray-500 hover:text-red-500">Sign Up</a>
                 <a href="#" class="text-gray-500 hover:text-red-500">Shop</a>
-                <a href="#" class="text-gray-500 font-semibold">About Us</a>
+                <a href="#" class="text-gray-500 hover:text-red-500 ">About Us</a>
                 <a href="#" class="text-gray-500 hover:text-red-500">Contact Us</a>
               </div>
             </div>
     
             <!-- Desktop Icons -->
             <div class="hidden md:flex items-center space-x-4">
-              <a href="#" class="text-gray-500 hover:text-gray-900">
+              <a href="wishlist.html" class="text-gray-500 hover:text-gray-900">
                 <img src="../assets/icon/heart.png" class="w-6 h-6" alt="">
               </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
+              <a href="404.html" class="text-gray-500 hover:text-gray-900">
                 <img src="../assets/icon/email.png" class="w-6 h-6" alt="">
               </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
+              <a href="cart.html" class="text-gray-500 hover:text-gray-900">
                 <img src="../assets/icon/shopping-cart (1).png" class="w-6 h-6" alt="">
     
               </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
+              <a href="account.html" class="text-gray-500 hover:text-gray-900">
                 <img src="../assets/icon/user (1).png" class="w-6 h-6" alt="">
               </a>
             </div>
@@ -76,12 +77,12 @@
         <!-- Mobile Menu Links -->
         <div id="mobile-menu" class="hidden md:hidden">
           <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-            <a href="#" class="text-red-500 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Bag</a>
+            <a href="../index.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+            <a href="cart.html" class="text-red-500 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Bag</a>
             <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Sign Up</a>
-            <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Shop</a>
-            <a href="#" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
-            <a href="#" class="text-gray-700 font-semibold block px-3 py-2 rounded-md text-base">About Us</a>
+            <a href="Shop.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Shop</a>
+            <a href="contact.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
+            <a href="about.html" class="text-gray-700 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">About Us</a>
           </div>
         </div>
       </nav>
@@ -91,23 +92,23 @@
         <div class="flex justify-around w-full">
           <div class="flex flex-col items-center">
             <img src="../assets/icon/home.png" class="w-5 h-5" alt="">
-            <span class="text-xs "><a href="">Home</a></span>
+            <span class="text-xs "><a href="../index.html">Home</a></span>
           </div>
           <div class="flex flex-col items-center">
             <img src="../assets/icon/shopping-cart (2).png" class="w-5 h-5" alt="">
-            <span class="text-xs"><a href="">Shop</a></span>
+            <span class="text-xs"><a href="Shop.html">Shop</a></span>
           </div>
           <div class="flex flex-col items-center">
             <img src="../assets/icon/bag.png" class="w-5 h-5" alt="">
-            <span class="text-xs text-red-500"><a href="">Bag</a></span>
+            <span class="text-xs"><a href="cart.html">Bag</a></span>
           </div>
           <div class="flex flex-col items-center">
             <img src="../assets/icon/heart (1).png" class="w-5 h-5" alt="">
-            <span class="text-xs"><a href="">Favorites</a></span>
+            <span class="text-xs"><a href="wishlist.html">Favorites</a></span>
           </div>
           <div class="flex flex-col items-center">
-            <img src="../assets/icon/user (1).png" class="w-5 h-5" alt="">
-            <span class="text-xs"><a href="">Profile</a></span>
+            <img src="../assets/icon/user.png" class="w-5 h-5" alt="">
+            <span class="text-xs"><a href="account.html">Profile</a></span>
           </div>
         </div>
       
@@ -120,28 +121,31 @@
             <div class="max-w-[1177px] w-full">
     
                 <div id="container-pro" class="mt-16 p-4 flex flex-col gap-5">
-                  <div class=" h-10 flex justify-around items-center shadow-sm  ">
+                  <div class=" h-10 flex justify-between items-center shadow-sm md:px-8 px-2   ">
                     <span>Product</span> <span>Price</span> <span>Quantity</span> <span>Subtotal</span>
                   </div>
                 </div>
                 <div>
 
-                    <button class="border h-10 w-36 m-4"><a href="../index.html"> Return To Shop</a></button>
+                    <button class="border h-10 w-36 md:w-[212px] m-4"><a href="Shop.html"> Return To Shop</a></button>
                 </div>
             </div>
         </section>
 
-        <section class="flex justify-center ">
+        <section class="flex justify-center  ">
 
-            <section class=" flex justify-center gap-10 mt-4 max-w-[1170px] justify-between flex-col md:flex-row " >
+            <section class=" flex justify-center items-center gap-10 mt-4 max-w-[1170px] justify-between flex-col md:flex-row md:items-start" >
     
-                <div class=" flex gap-2 justify-center text-xs">
-                    <input class="w-[152px] border h-10 p-4 lg:w-[300px] lg:h-[56px] " placeholder="Coupon Code" type="text">
-                    <button class="bg-[#DB4444] h-10 rounded-lg w-[107px] text-gray-50 lg:w-[211px] lg:h-[56px] ">Apply Coupon</button>
+              <div class="flex justify-center">
+    
+                <div class="flex items-center mb-6 max-w-[400px]">
+                  <input class="flex-1 border rounded-l px-3 py-2 text-gray-700 focus:outline-non focus:ring-2 focus:ring-blue-500" type="text" placeholder="Coupon Code">
+                  <button class="bg-[#DB4444] text-gray-50 px-4 py-2 rounded-r hover:bg-red-700">Apply Coupon</button>
                 </div>
+            </div>
     
     
-                <div class="flex flex-col justify-center items-center border-2 w-[322px] gap-4 pt-4 pb-4 lg:w-[470px] ">
+                <div class="flex flex-col justify-center items-center border-2 w-[322px] gap-4 pt-4 pb-4 lg:w-[470px] lg:w-[470px]">
     
                     <div class="w-[90%">
                         <h2 class="bold">Cart Total</h2>
@@ -149,7 +153,7 @@
                     <div class="h-10 border-b border-black/20 flex items-center justify-between w-[90%]">Subtotal: <span id="Subtotal"></span></div>
                     <div class="h-10 border-b border-black/20 flex items-center justify-between w-[90%]">Shipping: <span id="Shipping">free</span></div>
                     <div class="h-10 border-b border-black/20 flex items-center justify-between w-[90%]">Total: <span id="Total"></span></div>
-                    <div class="bg-[#DB4444] h-[40px] rounded-lg w-[187px] text-gray-50 flex justify-center items-center">
+                    <div class="bg-[#DB4444] h-[40px] md:h-[50px] rounded w-[187px] text-gray-50 flex justify-center items-center md:w-[260px]">
                         <a href="" class="">Procees to checkout</a>
                     </div>
     
@@ -189,11 +193,11 @@
       <div class="px-4">
         <h3 class="font-semibold text-lg mb-2 font-bold">Account</h3>
         <ul class="text-sm space-y-1 ">
-          <li class="hover:text-red-500"><a href="#">My Account</a></li>
+          <li class="hover:text-red-500"><a href="account.html">My Account</a></li>
           <li class="hover:text-red-500"> <a href="#"> Login / Register</a></li>
-          <li class="hover:text-red-500"> <a href="#">Cart</a> </li>
-          <li class="hover:text-red-500"><a href="#">About us</a></li>
-          <li class="hover:text-red-500"><a href="#">Shop</a></li>
+          <li class="hover:text-red-500"> <a href="cart.html">Cart</a> </li>
+          <li class="hover:text-red-500"><a href="about.html">About us</a></li>
+          <li class="hover:text-red-500"><a href="Shop.html">Shop</a></li>
         </ul>
       </div>
   
@@ -201,10 +205,10 @@
       <div class="px-4">
         <h3 class="font-semibold text-lg mb-2 font-bold">Quick Link</h3>
         <ul class="text-sm space-y-1 ">
-          <li class="hover:text-red-500"><a href="">Privacy Policy</a></li>
-          <li class="hover:text-red-500"><a href="">Terms Of Use</a></li>
-          <li class="hover:text-red-500"><a href="">FAQ</a></li>
-          <li class="hover:text-red-500"><a href="">Contact</a></li>
+          <li class="hover:text-red-500"><a href="#">Privacy Policy</a></li>
+          <li class="hover:text-red-500"><a href="#">Terms Of Use</a></li>
+          <li class="hover:text-red-500"><a href="#">FAQ</a></li>
+          <li class="hover:text-red-500"><a href="contact.html">Contact</a></li>
         </ul>
       </div>
   
@@ -235,13 +239,7 @@
     </div>
   </footer>
 
-<script>
-// Toggle mobile menu
-document.getElementById('menu-toggle').addEventListener('click', function() {
-  var menu = document.getElementById('mobile-menu');
-  menu.classList.toggle('hidden');
-});
-</script>
+<script src="../js/menu.js"></script>
 <script src="../js/cart.js"></script>
 </body>
 </html>
